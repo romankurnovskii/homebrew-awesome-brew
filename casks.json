@@ -20,7 +20,7 @@
   "releaseOnly": [
     {
       "repo": "https://github.com/dice2o/BingGPT",
-      "description": "",
+      "description": "Desktop application of new Bing's AI-powered chat (Windows, macOS and Linux)",
       "sha": {
         "universal": null,
         "intel": null,
@@ -29,7 +29,7 @@
     },
     {
       "repo": "https://github.com/sunner/ChatALL",
-      "description": "",
+      "description": "Concurrently chat with ChatGPT, Bing Chat, bard, Alpaca, Vincuna, Claude, ChatGLM, MOSS, iFlytek Spark, ERNIE and more, discover the best answers",
       "sha": {
         "universal": null,
         "intel": null,
@@ -38,7 +38,7 @@
     },
     {
       "repo": "https://github.com/brimdata/zui",
-      "description": "",
+      "description": "Zui is a powerful desktop application for exploring and working with data. The official front-end to the Zed lake.",
       "sha": {
         "universal": null,
         "intel": null,
@@ -47,7 +47,79 @@
     },
     {
       "repo": "https://github.com/WeakAuras/WeakAuras-Companion",
-      "description": "",
+      "description": "A cross-platform application built to provide the missing link between Wago.io and World of Warcraft",
+      "sha": {
+        "universal": null,
+        "intel": null,
+        "arm": null
+      }
+    },
+    {
+      "repo": "https://github.com/jgraph/drawio-desktop",
+      "description": "Official electron build of draw.io",
+      "sha": {
+        "universal": null,
+        "intel": null,
+        "arm": null
+      }
+    },
+    {
+      "repo": "https://github.com/sqlectron/sqlectron-gui",
+      "description": "A simple and lightweight SQL client desktop with cross database and platform support.",
+      "sha": {
+        "universal": null,
+        "intel": null,
+        "arm": null
+      }
+    },
+    {
+      "repo": "https://github.com/krud-dev/ostara",
+      "description": "Ostara is a desktop application that provides various features to monitor and interact with Spring Boot Applications via Actuator.",
+      "sha": {
+        "universal": null,
+        "intel": null,
+        "arm": null
+      }
+    },
+    {
+      "repo": "https://github.com/johannesjo/super-productivity",
+      "description": "Super Productivity is an advanced todo list app with integrated Timeboxing and time tracking capabilities. It also comes with integrations for Jira, Gitlab, GitHub and Open Project.",
+      "sha": {
+        "universal": null,
+        "intel": null,
+        "arm": null
+      }
+    },
+    {
+      "repo": "https://github.com/zadam/trilium",
+      "description": "Build your personal knowledge base with Trilium Notes",
+      "sha": {
+        "universal": null,
+        "intel": null,
+        "arm": null
+      }
+    },
+    {
+      "repo": "https://github.com/Molunerfinn/PicGo",
+      "description": "A simple & beautiful tool for pictures uploading built by vue-cli-electron-builder",
+      "sha": {
+        "universal": null,
+        "intel": null,
+        "arm": null
+      }
+    },
+    {
+      "repo": "https://github.com/aandrew-me/ytDownloader",
+      "description": "A modern GUI App for downloading Videos and Audios from hundreds of sites",
+      "sha": {
+        "universal": null,
+        "intel": null,
+        "arm": null
+      }
+    },
+    {
+      "repo": "https://github.com/antares-sql/antares",
+      "description": "A modern, fast and productivity driven SQL client with a focus in UX.",
       "sha": {
         "universal": null,
         "intel": null,
