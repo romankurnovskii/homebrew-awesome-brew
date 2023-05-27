@@ -9,6 +9,10 @@
       "description": "open source casks"
     },
     {
+      "repo": "https://github.com/shemeshg/homebrew-tap",
+      "description": ""
+    },
+    {
       "repo": "https://github.com/sidneys/homebrew-homebrew",
       "description": ""
     }
