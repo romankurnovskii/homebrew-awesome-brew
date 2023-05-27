@@ -31,13 +31,15 @@ g = Github(os.getenv("GITHUB_AC_TOKEN"))
 with open("casks.json") as json_file:
     data = json.load(json_file)
 
-repos = [
-    item["repo"].replace("https://github.com/", "") for item in data["releaseOnly"]
-]
+repos = []
+for item in data["releaseOnly"]:
+    repo_name = item["repo"].replace("https://github.com/", "")
+    repo_description = item["description"]
+    repos.append([repo_name, repo_description])
 
 os.makedirs("Casks", exist_ok=True)
 
-for repo_name in repos:
+for repo_name, repo_description in repos:
     repo = g.get_repo(repo_name)
     latest_release = repo.get_latest_release()
     version = latest_release.tag_name
@@ -102,7 +104,7 @@ cask "{app_name.lower()}" do
 
   {url_line}
   name "{app_name}"
-  desc "empty"
+  desc "{repo_description}"
   homepage "https://github.com/{repo_name}"
   {sha_line}
 
