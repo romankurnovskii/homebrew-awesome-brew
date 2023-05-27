@@ -16,5 +16,43 @@
       "repo": "https://github.com/sidneys/homebrew-homebrew",
       "description": ""
     }
+  ],
+  "releaseOnly": [
+    {
+      "repo": "https://github.com/dice2o/BingGPT",
+      "description": "",
+      "sha": {
+        "universal": null,
+        "intel": null,
+        "arm": null
+      }
+    },
+    {
+      "repo": "https://github.com/sunner/ChatALL",
+      "description": "",
+      "sha": {
+        "universal": null,
+        "intel": null,
+        "arm": null
+      }
+    },
+    {
+      "repo": "https://github.com/brimdata/zui",
+      "description": "",
+      "sha": {
+        "universal": null,
+        "intel": null,
+        "arm": null
+      }
+    },
+    {
+      "repo": "https://github.com/WeakAuras/WeakAuras-Companion",
+      "description": "",
+      "sha": {
+        "universal": null,
+        "intel": null,
+        "arm": null
+      }
+    }
   ]
 }
