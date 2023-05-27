@@ -1,0 +1,39 @@
+name: Run Python script on merge to master
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install gitpython
+
+      - name: Run Python script
+        run: |
+          python update_casks.py
+
+      - name: Commit and push if it changed
+        run: |
+          git config --global user.name 'GitHub Action'
+          git config --global user.email 'action@github.com'
+          git add -A
+          git diff --quiet && git diff --staged --quiet || git commit -m 'Automated update'
+          git push
+
+# push permissions
+# https://github.com/romankurnovskii/homebrew-awesome-brew/settings/actions

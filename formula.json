@@ -1,0 +1,17 @@
+{
+  "formula": [
+    {
+      "repo": "https://github.com/mongodb/homebrew-brew",
+      "description": ""
+    }
+    {
+      "repo": "https://github.com/romkatv/homebrew-powerlevel10k",
+      "description": "Zsh Theme"
+    },
+    {
+      "repo": "https://github.com/sidneys/homebrew-homebrew",
+      "description": ""
+    },
+
+  ]
+}

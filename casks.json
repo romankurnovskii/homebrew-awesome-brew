@@ -1,0 +1,16 @@
+{
+  "casks": [
+    {
+      "repo": "https://github.com/lencx/ChatGPT",
+      "description": "desktop chatgpt"
+    },
+    {
+      "repo": "https://github.com/romankurnovskii/homebrew-cask",
+      "description": "open source casks"
+    },
+    {
+      "repo": "https://github.com/sidneys/homebrew-homebrew",
+      "description": ""
+    }
+  ]
+}
