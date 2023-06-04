@@ -46,6 +46,15 @@
       }
     },
     {
+      "repo": "https://github.com/stargatedaw/stargate",
+      "description": "Innovation-first digital audio workstation (DAW), instrument and effect plugins, wave editor.",
+      "sha": {
+        "universal": null,
+        "intel": null,
+        "arm": null
+      }
+    },
+    {
       "repo": "https://github.com/WeakAuras/WeakAuras-Companion",
       "description": "A cross-platform application built to provide the missing link between Wago.io and World of Warcraft",
       "sha": {
