@@ -25,6 +25,10 @@
         "universal": null,
         "intel": null,
         "arm": null
+      },
+      "arch": {
+        "arm": "darwin-arm64.dmg",
+        "intel": "darwin-x64.dmg"
       }
     },
     {
@@ -34,6 +38,10 @@
         "universal": null,
         "intel": null,
         "arm": null
+      },
+      "arch": {
+        "arm": "mac-arm64.dmg",
+        "intel": "mac-x64.dmg"
       }
     },
     {
@@ -52,6 +60,10 @@
         "universal": null,
         "intel": null,
         "arm": null
+      },
+      "arch": {
+        "arm": "macos-m1-arm64.dmg",
+        "intel": "macos-intel-x86_64.dmg"
       }
     },
     {
@@ -115,6 +127,10 @@
         "universal": null,
         "intel": null,
         "arm": null
+      },
+      "arch": {
+        "arm": "arm64.dmg",
+        "intel": "x64.dmg"
       }
     },
     {
@@ -124,6 +140,9 @@
         "universal": null,
         "intel": null,
         "arm": null
+      },
+      "arch": {
+        "universal": "_Mac.dmg"
       }
     },
     {
@@ -144,7 +163,6 @@
         "arm": null
       }
     },
-
     {
       "repo": "https://github.com/zenangst/KeyboardCowboy",
       "description": "Keyboard shortcut utility.",
@@ -152,6 +170,9 @@
         "universal": null,
         "intel": null,
         "arm": null
+      },
+      "arch": {
+        "universal": ".dmg"
       }
     }
   ]
