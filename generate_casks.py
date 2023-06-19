@@ -58,7 +58,7 @@ end
         f.write(cask_content)
 
 
-g = Github(os.getenv("GITHUB_AC_TOKEN"))
+g = Github(os.getenv("AC_TOKEN"))
 
 with open("casks.json") as json_file:
     data = json.load(json_file)
