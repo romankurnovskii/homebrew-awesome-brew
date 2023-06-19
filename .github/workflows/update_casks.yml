@@ -27,11 +27,11 @@ jobs:
         run: |
           python update_casks.py
 
-      - name: Run cask_generator
+      - name: Run generate_casks
         env:
           AC_TOKEN: ${{ secrets.AC_TOKEN }}
         run: |
-          python cask_generator.py
+          python generate_casks.py
 
       - name: Commit and push if it changed
         run: |
