@@ -1,178 +1,211 @@
 {
   "casks": [
     {
-      "repo": "https://github.com/lencx/ChatGPT",
-      "description": "desktop chatgpt"
+      "description": "desktop chatgpt",
+      "repo": "https://github.com/lencx/ChatGPT"
     },
     {
-      "repo": "https://github.com/romankurnovskii/homebrew-cask",
-      "description": "open source casks"
+      "description": "open source casks",
+      "repo": "https://github.com/romankurnovskii/homebrew-cask"
     },
     {
-      "repo": "https://github.com/shemeshg/homebrew-tap",
-      "description": ""
+      "description": "",
+      "repo": "https://github.com/shemeshg/homebrew-tap"
     },
     {
-      "repo": "https://github.com/sidneys/homebrew-homebrew",
-      "description": ""
+      "description": "",
+      "repo": "https://github.com/sidneys/homebrew-homebrew"
+    },
+    {
+      "description": "A Free, Modern Toolbox Built for Developers.",
+      "repo": "https://github.com/he3-app/homebrew-he3"
     }
   ],
   "releaseOnly": [
     {
-      "repo": "https://github.com/dice2o/BingGPT",
-      "description": "Desktop application of new Bing's AI-powered chat (Windows, macOS and Linux)",
-      "sha": {
-        "universal": null,
-        "intel": null,
-        "arm": null
-      },
       "arch": {
         "arm": "darwin-arm64.dmg",
         "intel": "darwin-x64.dmg"
+      },
+      "description": "Desktop application of new Bing's AI-powered chat (Windows, macOS and Linux)",
+      "repo": "https://github.com/dice2o/BingGPT",
+      "sha": {
+        "arm": null,
+        "intel": null,
+        "universal": null
       }
     },
+
     {
-      "repo": "https://github.com/sunner/ChatALL",
-      "description": "Concurrently chat with ChatGPT, Bing Chat, bard, Alpaca, Vincuna, Claude, ChatGLM, MOSS, iFlytek Spark, ERNIE and more, discover the best answers",
-      "sha": {
-        "universal": null,
-        "intel": null,
-        "arm": null
+      "arch": {
+        "arm": "arm64-mac.zip",
+        "intel": "mac.zip"
       },
+      "description": "Shadowsocks GUI application made for Ubuntu / Mac / Win users and powered by Electron.",
+      "repo": "https://github.com/nojsja/shadowsocks-electron",
+      "sha": {
+        "arm": null,
+        "intel": null,
+        "universal": null
+      }
+    },
+
+    {
+      "arch": {
+        "arm": "",
+        "intel": ""
+      },
+      "description": "Leanote Desktop App, based on Electron(atom-shell)",
+      "repo": "https://github.com/leanote/desktop-app",
+      "sha": {
+        "arm": null,
+        "intel": null,
+        "universal": null
+      }
+    },
+
+    {
       "arch": {
         "arm": "mac-arm64.dmg",
         "intel": "mac-x64.dmg"
-      }
-    },
-    {
-      "repo": "https://github.com/brimdata/zui",
-      "description": "Zui is a powerful desktop application for exploring and working with data. The official front-end to the Zed lake.",
-      "sha": {
-        "universal": null,
-        "intel": null,
-        "arm": null
-      }
-    },
-    {
-      "repo": "https://github.com/stargatedaw/stargate",
-      "description": "Innovation-first digital audio workstation (DAW), instrument and effect plugins, wave editor.",
-      "sha": {
-        "universal": null,
-        "intel": null,
-        "arm": null
       },
+      "description": "Concurrently chat with ChatGPT, Bing Chat, bard, Alpaca, Vincuna, Claude, ChatGLM, MOSS, iFlytek Spark, ERNIE and more, discover the best answers",
+      "repo": "https://github.com/sunner/ChatALL",
+      "sha": {
+        "arm": null,
+        "intel": null,
+        "universal": null
+      }
+    },
+    {
+      "description": "Zui is a powerful desktop application for exploring and working with data. The official front-end to the Zed lake.",
+      "repo": "https://github.com/brimdata/zui",
+      "sha": {
+        "arm": null,
+        "intel": null,
+        "universal": null
+      }
+    },
+    {
       "arch": {
         "arm": "macos-m1-arm64.dmg",
         "intel": "macos-intel-x86_64.dmg"
-      }
-    },
-    {
-      "repo": "https://github.com/WeakAuras/WeakAuras-Companion",
-      "description": "A cross-platform application built to provide the missing link between Wago.io and World of Warcraft",
-      "sha": {
-        "universal": null,
-        "intel": null,
-        "arm": null
-      }
-    },
-    {
-      "repo": "https://github.com/jgraph/drawio-desktop",
-      "description": "Official electron build of draw.io",
-      "sha": {
-        "universal": null,
-        "intel": null,
-        "arm": null
-      }
-    },
-    {
-      "repo": "https://github.com/sqlectron/sqlectron-gui",
-      "description": "A simple and lightweight SQL client desktop with cross database and platform support.",
-      "sha": {
-        "universal": null,
-        "intel": null,
-        "arm": null
-      }
-    },
-    {
-      "repo": "https://github.com/krud-dev/ostara",
-      "description": "Ostara is a desktop application that provides various features to monitor and interact with Spring Boot Applications via Actuator.",
-      "sha": {
-        "universal": null,
-        "intel": null,
-        "arm": null
-      }
-    },
-    {
-      "repo": "https://github.com/johannesjo/super-productivity",
-      "description": "Super Productivity is an advanced todo list app with integrated Timeboxing and time tracking capabilities. It also comes with integrations for Jira, Gitlab, GitHub and Open Project.",
-      "sha": {
-        "universal": null,
-        "intel": null,
-        "arm": null
-      }
-    },
-    {
-      "repo": "https://github.com/zadam/trilium",
-      "description": "Build your personal knowledge base with Trilium Notes",
-      "sha": {
-        "universal": null,
-        "intel": null,
-        "arm": null
-      }
-    },
-    {
-      "repo": "https://github.com/Molunerfinn/PicGo",
-      "description": "A simple & beautiful tool for pictures uploading built by vue-cli-electron-builder",
-      "sha": {
-        "universal": null,
-        "intel": null,
-        "arm": null
       },
+      "description": "Innovation-first digital audio workstation (DAW), instrument and effect plugins, wave editor.",
+      "repo": "https://github.com/stargatedaw/stargate",
+      "sha": {
+        "arm": null,
+        "intel": null,
+        "universal": null
+      }
+    },
+    {
+      "description": "A cross-platform application built to provide the missing link between Wago.io and World of Warcraft",
+      "repo": "https://github.com/WeakAuras/WeakAuras-Companion",
+      "sha": {
+        "arm": null,
+        "intel": null,
+        "universal": null
+      }
+    },
+    {
+      "description": "Official electron build of draw.io",
+      "repo": "https://github.com/jgraph/drawio-desktop",
+      "sha": {
+        "arm": null,
+        "intel": null,
+        "universal": null
+      }
+    },
+    {
+      "description": "A simple and lightweight SQL client desktop with cross database and platform support.",
+      "repo": "https://github.com/sqlectron/sqlectron-gui",
+      "sha": {
+        "arm": null,
+        "intel": null,
+        "universal": null
+      }
+    },
+    {
+      "description": "Ostara is a desktop application that provides various features to monitor and interact with Spring Boot Applications via Actuator.",
+      "repo": "https://github.com/krud-dev/ostara",
+      "sha": {
+        "arm": null,
+        "intel": null,
+        "universal": null
+      }
+    },
+    {
+      "description": "Super Productivity is an advanced todo list app with integrated Timeboxing and time tracking capabilities. It also comes with integrations for Jira, Gitlab, GitHub and Open Project.",
+      "repo": "https://github.com/johannesjo/super-productivity",
+      "sha": {
+        "arm": null,
+        "intel": null,
+        "universal": null
+      }
+    },
+    {
+      "description": "Build your personal knowledge base with Trilium Notes",
+      "repo": "https://github.com/zadam/trilium",
+      "sha": {
+        "arm": null,
+        "intel": null,
+        "universal": null
+      }
+    },
+    {
       "arch": {
         "arm": "arm64.dmg",
         "intel": "x64.dmg"
+      },
+      "description": "A simple & beautiful tool for pictures uploading built by vue-cli-electron-builder",
+      "repo": "https://github.com/Molunerfinn/PicGo",
+      "sha": {
+        "arm": null,
+        "intel": null,
+        "universal": null
       }
     },
     {
-      "repo": "https://github.com/aandrew-me/ytDownloader",
-      "description": "A modern GUI App for downloading Videos and Audios from hundreds of sites",
-      "sha": {
-        "universal": null,
-        "intel": null,
-        "arm": null
-      },
       "arch": {
         "universal": "_Mac.dmg"
-      }
-    },
-    {
-      "repo": "https://github.com/antares-sql/antares",
-      "description": "A modern, fast and productivity driven SQL client with a focus in UX.",
-      "sha": {
-        "universal": null,
-        "intel": null,
-        "arm": null
-      }
-    },
-    {
-      "repo": "https://github.com/cpeditor/cpeditor",
-      "description": "The IDE for competitive programming 🎉 | Fetch, Code, Compile, Run, Check, Submit 🚀.",
-      "sha": {
-        "universal": null,
-        "intel": null,
-        "arm": null
-      }
-    },
-    {
-      "repo": "https://github.com/zenangst/KeyboardCowboy",
-      "description": "Keyboard shortcut utility.",
-      "sha": {
-        "universal": null,
-        "intel": null,
-        "arm": null
       },
+      "description": "A modern GUI App for downloading Videos and Audios from hundreds of sites",
+      "repo": "https://github.com/aandrew-me/ytDownloader",
+      "sha": {
+        "arm": null,
+        "intel": null,
+        "universal": null
+      }
+    },
+    {
+      "description": "A modern, fast and productivity driven SQL client with a focus in UX.",
+      "repo": "https://github.com/antares-sql/antares",
+      "sha": {
+        "arm": null,
+        "intel": null,
+        "universal": null
+      }
+    },
+    {
+      "description": "The IDE for competitive programming 🎉 | Fetch, Code, Compile, Run, Check, Submit 🚀.",
+      "repo": "https://github.com/cpeditor/cpeditor",
+      "sha": {
+        "arm": null,
+        "intel": null,
+        "universal": null
+      }
+    },
+    {
       "arch": {
         "universal": ".dmg"
+      },
+      "description": "Keyboard shortcut utility.",
+      "repo": "https://github.com/zenangst/KeyboardCowboy",
+      "sha": {
+        "arm": null,
+        "intel": null,
+        "universal": null
       }
     }
   ]
