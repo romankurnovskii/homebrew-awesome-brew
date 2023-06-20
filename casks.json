@@ -63,6 +63,18 @@
     },
     {
       "arch": {
+        "universal": "darwin-x64.zip"
+      },
+      "description": "Disk And Memory Space Visualization App built with Electron & d3.js",
+      "repo": "https://github.com/zz85/space-radar",
+      "sha": {
+        "arm": null,
+        "intel": null,
+        "universal": null
+      }
+    },
+    {
+      "arch": {
         "arm": "_aarch64.dmg",
         "intel": "_x64.dmg"
       },
