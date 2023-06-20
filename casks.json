@@ -50,11 +50,36 @@
     },
     {
       "arch": {
+        "arm": "mac.arm64.dmg",
+        "intel": "mac.x64.dmg"
+      },
+      "description": "Free cross-platform password manager compatible with KeePass",
+      "repo": "https://github.com/keeweb/keeweb",
+      "sha": {
+        "arm": null,
+        "intel": null,
+        "universal": null
+      }
+    },
+    {
+      "arch": {
         "arm": "",
         "intel": ""
       },
       "description": "Leanote Desktop App, based on Electron(atom-shell)",
       "repo": "https://github.com/leanote/desktop-app",
+      "sha": {
+        "arm": null,
+        "intel": null,
+        "universal": null
+      }
+    },
+    {
+      "arch": {
+        "universal": null
+      },
+      "description": "Simplenote for Web, Windows, and Linux",
+      "repo": "https://github.com/Automattic/simplenote-electron",
       "sha": {
         "arm": null,
         "intel": null,
