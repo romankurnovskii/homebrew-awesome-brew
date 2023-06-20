@@ -13,9 +13,15 @@ Instead of having to add each tap one by one, you can simply use this catalog to
 
 # Usage
 
-```
+```sh
 brew tap romankurnovskii/awesome-brew
 brew update
+```
+
+or using [GUI BrewMate](https://github.com/romankurnovskii/BrewMate)
+
+```sh
+brew install romankurnovskii/cask/brewmate --cask --no-quarantine
 ```
 
 # How to Contribute
