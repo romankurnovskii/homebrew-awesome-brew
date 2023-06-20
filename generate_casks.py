@@ -100,7 +100,7 @@ for cask in data["releaseOnly"]:
 
         if cask_arch:
             for arch, pattern in cask_arch.items():
-                if asset.name.endswith(pattern):
+                if pattern and asset.name.endswith(pattern):
                     if arch == "arm":
                         asset_url_arm = asset.browser_download_url
                         response = requests.get(asset_url_arm)
