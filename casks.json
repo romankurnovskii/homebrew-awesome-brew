@@ -37,6 +37,18 @@
     },
     {
       "arch": {
+        "universal": "darwin-x64.dmg"
+      },
+      "description": "Screenshot OCR search translate search for picture paste the picture on the screen screen recorder",
+      "repo": "https://github.com/xushengfeng/eSearch",
+      "sha": {
+        "arm": null,
+        "intel": null,
+        "universal": null
+      }
+    },
+    {
+      "arch": {
         "arm": "arm64-mac.zip",
         "intel": "mac.zip"
       },
