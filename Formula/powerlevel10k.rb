@@ -1,8 +1,8 @@
 class Powerlevel10k < Formula
   desc "A Zsh Theme"
   homepage "https://github.com/romkatv/powerlevel10k"
-  url "https://github.com/romkatv/powerlevel10k/archive/v1.18.0.tar.gz"
-  sha256 "08a64ab10fae468fdb3697e63405a9aacf085d81cd88c1c5d7b86151b165738a"
+  url "https://github.com/romkatv/powerlevel10k/archive/v1.19.0.tar.gz"
+  sha256 "ac3395e572b5d5b77813009fd206762268fc73b9d305c2a99f4f26ad6fecf024"
 
   uses_from_macos "zsh" => [:build, :test]
 
