@@ -22,6 +22,19 @@
     }
   ],
   "releaseOnly": [
+    
+
+            {"arch": {
+        "universal": "_x64.dmg"
+      },
+      "description": "Sample manager.",
+      "repo": "https://github.com/bazalp/pulp",
+      "sha": {
+        "arm": null,
+        "intel": null,
+        "universal": null
+      }
+    },
         {
       "description": "Diffusion is the easiest way to run Stable Diffusion locally on your M1 Mac. Comes with a one-click installer. No dependencies or technical knowledge needed.",
       "repo": "https://github.com/divamgupta/diffusionbee-stable-diffusion-ui",
