@@ -46,6 +46,18 @@
     },
     {
       "arch": {
+        "universal": "x64.dmg"
+      },
+      "description": "A helpful writing assistant for lyricists!",
+      "repo": "https://github.com/wardellbagby/lyricistant",
+      "sha": {
+        "arm": null,
+        "intel": null,
+        "universal": null
+      }
+    },
+    {
+      "arch": {
         "arm": "darwin-arm64.dmg",
         "intel": "darwin-x64.dmg"
       },
