@@ -1,12 +1,12 @@
 
 cask "pomodoro-intel" do
-  version "v3.2.3"
+  version "v3.3.0"
 
-  url "https://github.com/G07cha/pomodoro/releases/download/v3.2.3/Pomodoro_3.2.3_x64.dmg"
+  url "https://github.com/G07cha/pomodoro/releases/download/v3.3.0/Pomodoro_3.3.0_x64.dmg"
   name "pomodoro-intel"
   desc "Pomodoro time managment tool build with Tauri 🍅"
   homepage "https://github.com/G07cha/pomodoro"
-  sha256 "16d9853b12586ae47419c191349ae35d60206a10a62384e6749bdfe4fe6167e4"
+  sha256 "b2d2507f6626a26d899ff5d9f6f2d911e134d7ed4989b196f5bde1b551f002b7"
 
   auto_updates true
 
