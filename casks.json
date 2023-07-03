@@ -299,6 +299,19 @@
         "intel": null,
         "universal": null
       }
+    },
+    {
+      "arch": {
+        "arm": "-arm64.dmg",
+        "intel": "-x64.dmg"
+      },
+      "description": "Knowledge base that brings planning, sorting and creating all together. Notion and Miro.",
+      "repo": "https://github.com/toeverything/AFFiNE",
+      "sha": {
+        "arm": null,
+        "intel": null,
+        "universal": null
+      }
     }
   ]
 }
