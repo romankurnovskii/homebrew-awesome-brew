@@ -324,6 +324,18 @@
         "intel": null,
         "universal": null
       }
+    },
+    {
+      "arch": {
+        "universal": ".dmg"
+      },
+      "description": "Desktop app for ente Photos",
+      "repo": "https://github.com/ente-io/photos-desktop",
+      "sha": {
+        "arm": null,
+        "intel": null,
+        "universal": null
+      }
     }
   ]
 }
