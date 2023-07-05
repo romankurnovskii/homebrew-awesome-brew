@@ -312,6 +312,18 @@
         "intel": null,
         "universal": null
       }
+    },
+    {
+      "arch": {
+        "universal": ".dmg"
+      },
+      "description": "Web3 ecosystem - enable developers to build fully decentralized media platform and blockchain-based marketplace",
+      "repo": "https://github.com/tanshuai/alphabiz",
+      "sha": {
+        "arm": null,
+        "intel": null,
+        "universal": null
+      }
     }
   ]
 }
