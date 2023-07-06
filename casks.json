@@ -336,6 +336,19 @@
         "intel": null,
         "universal": null
       }
+    },
+    {
+      "arch": {
+        "arm": "arm64-dmg.dmg",
+        "intel": "-x64-dmg.dmg"
+      },
+      "description": "2^x Image Super-Resolution",
+      "repo": "https://github.com/Tohrusky/Final2x",
+      "sha": {
+        "arm": null,
+        "intel": null,
+        "universal": null
+      }
     }
   ]
 }
