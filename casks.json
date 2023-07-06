@@ -361,6 +361,19 @@
         "intel": null,
         "universal": null
       }
+    },
+    {
+      "arch": {
+        "arm": "mac-arm64.zip",
+        "intel": "mac-x64.zip"
+      },
+      "description": "Robotics visualization and debugging",
+      "repo": "https://github.com/tareqimbasher/NetPad",
+      "sha": {
+        "arm": null,
+        "intel": null,
+        "universal": null
+      }
     }
   ]
 }
