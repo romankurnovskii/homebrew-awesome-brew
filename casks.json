@@ -5,10 +5,6 @@
       "repo": "https://github.com/lencx/ChatGPT"
     },
     {
-      "description": "open source casks",
-      "repo": "https://github.com/romankurnovskii/homebrew-cask"
-    },
-    {
       "description": "",
       "repo": "https://github.com/shemeshg/homebrew-tap"
     },
@@ -24,9 +20,21 @@
   "releaseOnly": [
     {
       "arch": {
+        "universal": "universal-mac.zip"
+      },
+      "description": "Homebrew GUI apps manager",
+      "repo": "https://github.com/romankurnovskii/BrewMate",
+      "sha": {
+        "arm": null,
+        "intel": null,
+        "universal": null
+      }
+    },
+    {
+      "arch": {
         "universal": "_x64.dmg"
       },
-      "description": "Sample manager.",
+      "description": "Sample manager",
       "repo": "https://github.com/bazalp/pulp",
       "sha": {
         "arm": null,
