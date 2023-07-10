@@ -403,8 +403,8 @@
       "arch": {
         "arm": "-arm64.dmg"
       },
-      "description": "Robotics visualization and debugging",
-      "repo": "https://github.com/tonylu110/uyou-todo-electron",
+      "description": "Miteiru is an open source Electron video player to learn Japanese",
+      "repo": "https://github.com/hockyy/miteiru",
       "sha": {
         "arm": null,
         "intel": null,
