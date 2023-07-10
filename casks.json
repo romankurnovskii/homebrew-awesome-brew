@@ -156,7 +156,7 @@
         "arm": "_aarch64.dmg",
         "intel": "_x64.dmg"
       },
-      "description": "Pomodoro time managment tool build with Tauri 🍅",
+      "description": "Pomodoro time managment tool build with Tauri",
       "repo": "https://github.com/G07cha/pomodoro",
       "sha": {
         "arm": null,
