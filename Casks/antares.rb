@@ -1,4 +1,3 @@
-
 cask "antares" do
   version "v0.7.14"
 

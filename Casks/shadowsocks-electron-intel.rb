@@ -1,4 +1,3 @@
-
 cask "shadowsocks-electron-intel" do
   version "v1.2.3"
 

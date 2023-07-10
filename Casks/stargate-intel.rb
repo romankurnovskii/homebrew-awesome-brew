@@ -1,4 +1,3 @@
-
 cask "stargate-intel" do
   version "release-23.06.1"
 

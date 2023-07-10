@@ -1,4 +1,3 @@
-
 cask "picgo-intel" do
   version "v2.3.1"
 

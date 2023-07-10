@@ -1,4 +1,3 @@
-
 cask "weakauras-companion" do
   version "v5.0.1"
 

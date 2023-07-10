@@ -1,4 +1,3 @@
-
 cask "keeweb-intel" do
   version "v1.18.7"
 

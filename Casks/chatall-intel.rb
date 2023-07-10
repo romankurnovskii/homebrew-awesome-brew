@@ -1,4 +1,3 @@
-
 cask "chatall-intel" do
   version "v1.31.47"
 

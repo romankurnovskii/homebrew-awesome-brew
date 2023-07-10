@@ -1,4 +1,3 @@
-
 cask "uyou-todo-electron-arm" do
   version "1.3.2"
 

@@ -1,4 +1,3 @@
-
 cask "binggpt-intel" do
   version "v0.3.7"
 

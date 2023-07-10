@@ -1,4 +1,3 @@
-
 cask "super-productivity" do
   version "v7.13.2"
 

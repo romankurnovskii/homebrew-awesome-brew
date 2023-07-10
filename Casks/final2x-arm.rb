@@ -1,4 +1,3 @@
-
 cask "final2x-arm" do
   version "2023-07-09"
 

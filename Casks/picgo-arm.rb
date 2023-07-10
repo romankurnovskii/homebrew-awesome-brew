@@ -1,4 +1,3 @@
-
 cask "picgo-arm" do
   version "v2.3.1"
 
