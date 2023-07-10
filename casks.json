@@ -386,6 +386,18 @@
         "intel": null,
         "universal": null
       }
+    },
+    {
+      "arch": {
+        "arm": "-arm64.dmg"
+      },
+      "description": "Robotics visualization and debugging",
+      "repo": "https://github.com/tonylu110/uyou-todo-electron",
+      "sha": {
+        "arm": null,
+        "intel": null,
+        "universal": null
+      }
     }
   ]
 }
