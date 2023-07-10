@@ -374,6 +374,18 @@
         "intel": null,
         "universal": null
       }
+    },
+    {
+      "arch": {
+        "arm": "-arm64.dmg"
+      },
+      "description": "Visit Photos on Any Device",
+      "repo": "https://github.com/rao-pics/rao-pics",
+      "sha": {
+        "arm": null,
+        "intel": null,
+        "universal": null
+      }
     }
   ]
 }
