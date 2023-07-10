@@ -28,8 +28,7 @@ load_dotenv()
 
 
 def create_cask_file(cask_name, repo_name, repo_description, version, url, sha):
-    cask_content = f"""
-cask "{cask_name.lower()}" do
+    cask_content = f"""cask "{cask_name.lower()}" do
   version "{version}"
 
   url "{url}"
@@ -62,12 +61,6 @@ g = Github(os.getenv("AC_TOKEN"))
 
 with open("casks.json") as json_file:
     data = json.load(json_file)
-
-# repos = []
-# for item in data["releaseOnly"]:
-#     repo_name = item["repo"].replace("https://github.com/", "")
-#     repo_description = item["description"]
-#     repos.append([repo_name, repo_description])
 
 os.makedirs("Casks", exist_ok=True)
 
@@ -109,7 +102,7 @@ for cask in data["releaseOnly"]:
                         asset_url_intel = asset.browser_download_url
                         response = requests.get(asset_url_intel)
                         sha256_intel = hashlib.sha256(response.content).hexdigest()
-                    elif arch == "intel":
+                    elif arch == "universal":
                         asset_url_universal = asset.browser_download_url
                         response = requests.get(asset_url_universal)
                         sha256_universal = hashlib.sha256(response.content).hexdigest()
@@ -124,18 +117,12 @@ for cask in data["releaseOnly"]:
                 asset_url_intel = asset.browser_download_url
                 response = requests.get(asset_url_intel)
                 sha256_intel = hashlib.sha256(response.content).hexdigest()
-            elif "universal" in asset.name and not sha256_universal:
-                asset_url_universal = asset.browser_download_url
-                response = requests.get(asset_url_universal)
-                sha256_universal = hashlib.sha256(response.content).hexdigest()
-            elif "mac" in asset.name and not sha256_universal:
-                asset_url_universal = asset.browser_download_url
-                response = requests.get(asset_url_universal)
-                sha256_universal = hashlib.sha256(response.content).hexdigest()
-            elif "darwin" in asset.name and not sha256_universal:
-                asset_url_universal = asset.browser_download_url
-                response = requests.get(asset_url_universal)
-                sha256_universal = hashlib.sha256(response.content).hexdigest()
+            else:
+                patterns = ["universal", "mac", "darwin"]
+                if any([p in asset.name for p in patterns]) and not sha256_universal:
+                    asset_url_universal = asset.browser_download_url
+                    response = requests.get(asset_url_universal)
+                    sha256_universal = hashlib.sha256(response.content).hexdigest()
 
     if asset_url_universal:
         create_cask_file(
@@ -165,48 +152,3 @@ for cask in data["releaseOnly"]:
                 asset_url_intel,
                 sha256_intel,
             )
-
-#     if asset_url_universal:
-#         sha_line = f'sha256 "{sha256_universal}"'
-#         url_line = f'url "{asset_url_universal}"'
-#     elif asset_url_arm and asset_url_intel:
-#         sha_line = f'sha256 arm: "{sha256_arm}", intel: "{sha256_intel}"'
-#         url_line = f'url arm: "{asset_url_arm}", intel: "{asset_url_intel}"'
-#     elif asset_url_arm:
-#         sha_line = f'sha256 "{sha256_arm}"'
-#         url_line = f'url "{asset_url_arm}"'
-#     elif asset_url_intel:
-#         sha_line = f'sha256 "{sha256_intel}"'
-#         url_line = f'url "{asset_url_intel}"'
-#     else:
-#         print(f"No suitable asset found for {repo_name}")
-#         continue
-
-#     cask_content = f"""
-# cask "{app_name.lower()}" do
-#   version "{version}"
-
-#   {url_line}
-#   name "{app_name}"
-#   desc "{repo_description}"
-#   homepage "https://github.com/{repo_name}"
-#   {sha_line}
-
-#   auto_updates true
-
-#   app "{app_name}.app"
-
-#   zap trash: [
-#     "~/Library/Application Support/{app_name.lower()}",
-#   ]
-# end
-# """
-
-#     filename = f"{app_name}.rb".lower()
-#     counter = 1
-#     while os.path.exists(os.path.join("Casks", filename)):
-#         filename = f"{app_name}-{counter}.rb"
-#         counter += 1
-
-#     with open(os.path.join("Casks", filename), "w") as f:
-#         f.write(cask_content)
