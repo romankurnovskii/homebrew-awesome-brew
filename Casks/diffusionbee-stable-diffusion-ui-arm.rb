@@ -1,4 +1,3 @@
-
 cask "diffusionbee-stable-diffusion-ui-arm" do
   version "2.2.1"
 

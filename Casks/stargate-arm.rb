@@ -1,4 +1,3 @@
-
 cask "stargate-arm" do
   version "release-23.06.1"
 

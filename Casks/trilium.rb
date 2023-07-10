@@ -1,4 +1,3 @@
-
 cask "trilium" do
   version "v0.60.4"
 

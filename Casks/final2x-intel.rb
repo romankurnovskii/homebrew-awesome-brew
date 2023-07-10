@@ -1,4 +1,3 @@
-
 cask "final2x-intel" do
   version "2023-07-09"
 

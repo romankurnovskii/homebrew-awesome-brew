@@ -1,4 +1,3 @@
-
 cask "netpad-intel" do
   version "v0.3.1"
 

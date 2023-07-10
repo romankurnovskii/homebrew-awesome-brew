@@ -1,4 +1,3 @@
-
 cask "miteiru-arm" do
   version "v1.0.0"
 

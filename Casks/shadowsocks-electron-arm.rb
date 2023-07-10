@@ -1,4 +1,3 @@
-
 cask "shadowsocks-electron-arm" do
   version "v1.2.3"
 

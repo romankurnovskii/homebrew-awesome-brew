@@ -1,4 +1,3 @@
-
 cask "zui" do
   version "v1.1.0"
 

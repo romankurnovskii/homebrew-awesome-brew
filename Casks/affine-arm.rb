@@ -1,4 +1,3 @@
-
 cask "affine-arm" do
   version "v0.6.2"
 

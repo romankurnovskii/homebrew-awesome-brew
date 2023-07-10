@@ -1,4 +1,3 @@
-
 cask "binggpt-arm" do
   version "v0.3.7"
 

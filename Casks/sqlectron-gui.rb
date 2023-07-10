@@ -1,4 +1,3 @@
-
 cask "sqlectron-gui" do
   version "v1.38.0"
 

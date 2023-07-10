@@ -1,4 +1,3 @@
-
 cask "rao-pics-arm" do
   version "v0.7.3"
 

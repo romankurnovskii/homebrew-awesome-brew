@@ -1,4 +1,3 @@
-
 cask "ostara" do
   version "v0.11.0"
 

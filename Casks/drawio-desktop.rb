@@ -1,4 +1,3 @@
-
 cask "drawio-desktop" do
   version "v21.6.1"
 

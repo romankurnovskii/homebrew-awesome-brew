@@ -1,4 +1,3 @@
-
 cask "chatall-arm" do
   version "v1.31.47"
 
