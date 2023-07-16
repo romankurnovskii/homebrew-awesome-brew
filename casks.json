@@ -418,6 +418,18 @@
         "intel": null,
         "universal": null
       }
+    },
+    {
+      "arch": {
+        "universal": "-mac.zip"
+      },
+      "description": "Free Accounting Software",
+      "repo": "https://github.com/frappe/books",
+      "sha": {
+        "arm": null,
+        "intel": null,
+        "universal": null
+      }
     }
   ]
 }
