@@ -8,7 +8,7 @@ class YoutubeDl < Formula
   license "Unlicense"
 
   head do
-    url "https://bitbucket.org/sidneys/youtube-dl.git", branch: "feature-merges/youtube-dl"
+    url "https://bitbucket.org/sidneys/youtube-dl.git", branch: "feature-merge/youtube-dl"
     depends_on "pandoc" => :build
   end
 
