@@ -8,7 +8,7 @@ class YtDlp < Formula
   license "Unlicense"
 
   head do
-    url "https://bitbucket.org/sidneys/yt-dlp.git", branch: "feature-merges/yt-dlp"
+    url "https://bitbucket.org/sidneys/yt-dlp.git", branch: "feature-merge/yt-dlp"
     depends_on "pandoc" => :build
   end
 

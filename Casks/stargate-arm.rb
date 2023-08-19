@@ -1,11 +1,11 @@
 cask "stargate-arm" do
-  version "release-23.06.1"
+  version "release-23.08.1"
 
-  url "https://github.com/stargatedaw/stargate/releases/download/release-23.06.1/StargateDAW-23.06.1-macos-m1-arm64.dmg"
+  url "https://github.com/stargatedaw/stargate/releases/download/release-23.08.1/StargateDAW-23.08.1-macos-m1-arm64.dmg"
   name "stargate-arm"
   desc "Innovation-first digital audio workstation (DAW), instrument and effect plugins, wave editor."
   homepage "https://github.com/stargatedaw/stargate"
-  sha256 "f9e82f297ad770b5225287f8c384908b5de4c0e80084428e6cbac02237bb3d33"
+  sha256 "0cf3a8c49b20696ac77cc20fd13c5c2ee796b0f15a41f7bb6f71039c7ef2d056"
 
   auto_updates true
 
