@@ -442,6 +442,18 @@
         "intel": null,
         "universal": null
       }
+    },
+    {
+      "arch": {
+        "universal": ".dmg"
+      },
+      "description": "Image Generator for Code Snippets & Screenshots",
+      "repo": "https://github.com/yossTheDev/karbonized",
+      "sha": {
+        "arm": null,
+        "intel": null,
+        "universal": null
+      }
     }
   ]
 }
