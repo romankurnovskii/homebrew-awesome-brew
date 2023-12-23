@@ -466,6 +466,18 @@
         "intel": null,
         "universal": null
       }
+    },
+    {
+      "arch": {
+        "universal": ".dmg"
+      },
+      "description": "IRC application written in Rust",
+      "repo": "https://github.com/squidowl/halloy",
+      "sha": {
+        "arm": null,
+        "intel": null,
+        "universal": null
+      }
     }
   ]
 }
