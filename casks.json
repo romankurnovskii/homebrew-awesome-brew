@@ -9,10 +9,6 @@
       "repo": "https://github.com/shemeshg/homebrew-tap"
     },
     {
-      "description": "",
-      "repo": "https://github.com/sidneys/homebrew-homebrew"
-    },
-    {
       "description": "A Free, Modern Toolbox Built for Developers.",
       "repo": "https://github.com/he3-app/homebrew-he3"
     }
