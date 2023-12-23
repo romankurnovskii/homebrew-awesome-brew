@@ -1,11 +1,11 @@
 cask "rao-pics-arm" do
-  version "v0.7.15"
+  version "v1.0.0-alpha.12"
 
-  url "https://github.com/meetqy/rao-pics/releases/download/v0.7.15/Rao.Pics-0.7.15-arm64.dmg"
+  url "https://github.com/meetqy/rao-pics/releases/download/v1.0.0-alpha.12/Rao.Pics-1.0.0-alpha.12-arm64.dmg"
   name "rao-pics-arm"
   desc "Visit Photos on Any Device"
   homepage "https://github.com/rao-pics/rao-pics"
-  sha256 "01f2c465e5fd1e88c16711f6a06c91adecc7fdaf8bb9cc10397c26d42100c4b6"
+  sha256 "4031187ddfe8e2fc2bb5ae87d10a1dad427e4e8ba031e8aa253eae345f60b338"
 
   auto_updates true
 

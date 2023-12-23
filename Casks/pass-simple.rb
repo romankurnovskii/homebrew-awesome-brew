@@ -1,19 +1,17 @@
 cask "pass-simple" do
-  version "0.82.0"
-  sha256 "a782353ab5d7a3a7a3482f2c5a73fa4cff510b0526af1360778d9b95dc328174"
+  version "0.144"
+  sha256 "3fc0e8c10f4031a1dcb7bcb22a53e352090aaa2053ccf1f30c80396df839e90c"
 
-  url "https://downloads.sourceforge.net/pass-simple/pass-simple-macos_#{version}.zip"
+  url "https://downloads.sourceforge.net/pass-simple/pass-simple-#{version}-Darwin.dmg"
   name "Pass simple"
   desc "GUI for pass cli util"
   homepage "https://sourceforge.net/projects/pass-simple/"
 
-  livecheck do
-    url "https://sourceforge.net/projects/pass-simple/rss?"
-    regex(/pass-simple-macos-(\d+(?:\.\d+)+)\.zip/i)
-    strategy :page_match
-  end
+  depends_on macos: ">= :big_sur"
+  depends_on formula: "pass"
+  depends_on formula: "pinentry-mac"
 
-  app "Pass simple.app"
+  app "pass-simple.app"
 
   zap trash: [
     "~/Library/Caches/Pass simple",
