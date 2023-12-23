@@ -70,6 +70,7 @@ for cask in data["releaseOnly"]:
     cask_arch = cask.get("arch")
 
     # for repo_name, repo_description in repos:
+    print(f"Trying repo: {repo_name} ...")
     repo = g.get_repo(repo_name)
     latest_release = repo.get_latest_release()
     version = latest_release.tag_name
@@ -84,9 +85,8 @@ for cask in data["releaseOnly"]:
     sha256_intel = ""
 
     assets = latest_release.get_assets()
+    print("Analyzing assets...")
     for asset in assets:
-        print(asset.name)
-
         if any(["linux" in asset.name, "win32" in asset.name, "win64" in asset.name]):
             print(f"Skipping {asset.name}")
             continue
