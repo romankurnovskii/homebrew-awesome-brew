@@ -1,11 +1,11 @@
 cask "keyboardcowboy" do
-  version "3.9.1"
+  version "3.20.2"
 
-  url "https://github.com/zenangst/KeyboardCowboy/releases/download/3.9.1/Keyboard.Cowboy.3.9.1.dmg"
+  url "https://github.com/zenangst/KeyboardCowboy/releases/download/3.20.2/Keyboard.Cowboy.3.20.2.dmg"
   name "KeyboardCowboy"
   desc "Keyboard shortcut utility."
   homepage "https://github.com/zenangst/KeyboardCowboy"
-  sha256 "9fc93dc067f3771af22200f3094914ee2350995642237010f75c9befee6849a4"
+  sha256 "90a9a09ce0c197e8489506dfc542c294013b5596befcf9cfca54ec8e909ccefe"
 
   auto_updates true
 
