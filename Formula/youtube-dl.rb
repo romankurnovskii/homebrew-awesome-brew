@@ -2,7 +2,7 @@ class YoutubeDl < Formula
   include Language::Python::Virtualenv
 
   desc "Download YouTube videos from the command-line"
-  homepage "https://youtube-dl.org/"
+  homepage "https://ytdl-org.github.io/youtube-dl/"
   url "https://files.pythonhosted.org/packages/01/4f/ab0d0806f4d818168d0ec833df14078c9d1ddddb5c42fa7bfb6f15ecbfa7/youtube_dl-2021.12.17.tar.gz"
   sha256 "bc59e86c5d15d887ac590454511f08ce2c47698d5a82c27bfe27b5d814bbaed2"
   license "Unlicense"
@@ -12,10 +12,12 @@ class YoutubeDl < Formula
     depends_on "pandoc" => :build
   end
 
-  depends_on "python@3.11"
+  depends_on "python@3.12"
 
   def install
-    system "make", "all" if build.head?
+    if build.head?
+      system "make", "all"
+    end
     virtualenv_install_with_resources
     man1.install_symlink libexec/"share/man/man1/youtube-dl.1" => "youtube-dl.1"
     bash_completion.install libexec/"etc/bash_completion.d/youtube-dl.bash-completion"

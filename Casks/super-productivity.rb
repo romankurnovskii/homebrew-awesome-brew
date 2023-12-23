@@ -1,11 +1,11 @@
 cask "super-productivity" do
-  version "v7.13.2"
+  version "v7.16.0"
 
-  url "https://github.com/johannesjo/super-productivity/releases/download/v7.13.2/superProductivity-7.13.2-mac.zip"
+  url "https://github.com/johannesjo/super-productivity/releases/download/v7.16.0/superProductivity-7.16.0-mac.zip"
   name "super-productivity"
   desc "Super Productivity is an advanced todo list app with integrated Timeboxing and time tracking capabilities. It also comes with integrations for Jira, Gitlab, GitHub and Open Project."
   homepage "https://github.com/johannesjo/super-productivity"
-  sha256 "77f64651744ff1805920721a57cbb3f85df1f9676a1ac121786bb5238e82665d"
+  sha256 "4db3085d34e12a251083a77e092ca5bbf97b9e010c0bcc0d924407595d520a63"
 
   auto_updates true
 

@@ -1,11 +1,11 @@
 cask "chatall-arm" do
-  version "v1.39.62"
+  version "v1.54.83"
 
-  url "https://github.com/sunner/ChatALL/releases/download/v1.39.62/ChatALL-1.39.62-mac-arm64.dmg"
+  url "https://github.com/sunner/ChatALL/releases/download/v1.54.83/ChatALL-1.54.83-mac-arm64.dmg"
   name "ChatALL-arm"
   desc "Concurrently chat with ChatGPT, Bing Chat, bard, Alpaca, Vincuna, Claude, ChatGLM, MOSS, iFlytek Spark, ERNIE and more, discover the best answers"
   homepage "https://github.com/sunner/ChatALL"
-  sha256 "bad62f2d1e3257acfcfb5a912b810cd1f081e19e5d7e097b562744024326ba9d"
+  sha256 "bf3e6e0263a0df28709d674f4745f93f76bd66bb3709f998ae17940e401432eb"
 
   auto_updates true
 
