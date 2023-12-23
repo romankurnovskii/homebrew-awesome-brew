@@ -435,18 +435,6 @@
       "arch": {
         "universal": ".dmg"
       },
-      "description": "Oxygen is an AI assistant that helps you get things done",
-      "repo": "https://github.com/virattt/project-oxygen",
-      "sha": {
-        "arm": null,
-        "intel": null,
-        "universal": null
-      }
-    },
-    {
-      "arch": {
-        "universal": ".dmg"
-      },
       "description": "Image Generator for Code Snippets & Screenshots",
       "repo": "https://github.com/yossTheDev/karbonized",
       "sha": {
