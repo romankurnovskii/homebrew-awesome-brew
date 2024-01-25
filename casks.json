@@ -9,10 +9,6 @@
       "repo": "https://github.com/shemeshg/homebrew-tap"
     },
     {
-      "description": "",
-      "repo": "https://github.com/sidneys/homebrew-homebrew"
-    },
-    {
       "description": "A Free, Modern Toolbox Built for Developers.",
       "repo": "https://github.com/he3-app/homebrew-he3"
     }
@@ -435,18 +431,6 @@
       "arch": {
         "universal": ".dmg"
       },
-      "description": "Oxygen is an AI assistant that helps you get things done",
-      "repo": "https://github.com/virattt/project-oxygen",
-      "sha": {
-        "arm": null,
-        "intel": null,
-        "universal": null
-      }
-    },
-    {
-      "arch": {
-        "universal": ".dmg"
-      },
       "description": "Image Generator for Code Snippets & Screenshots",
       "repo": "https://github.com/yossTheDev/karbonized",
       "sha": {
@@ -461,6 +445,31 @@
       },
       "description": "Offline editor for Scratch 3",
       "repo": "https://github.com/TurboWarp/desktop",
+      "sha": {
+        "arm": null,
+        "intel": null,
+        "universal": null
+      }
+    },
+    {
+      "arch": {
+        "universal": ".dmg"
+      },
+      "description": "IRC application written in Rust",
+      "repo": "https://github.com/squidowl/halloy",
+      "sha": {
+        "arm": null,
+        "intel": null,
+        "universal": null
+      }
+    },
+    {
+      "arch": {
+        "arm": "jan-mac-arm64-",
+        "intel": "jan-mac-x64-"
+      },
+      "description": "Jan Open-source ChatGPT alternative that runs 100% offline on your computer",
+      "repo": "https://github.com/janhq/jan",
       "sha": {
         "arm": null,
         "intel": null,
