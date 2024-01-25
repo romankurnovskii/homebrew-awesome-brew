@@ -1,11 +1,11 @@
 cask "weakauras-companion" do
-  version "v5.1.3"
+  version "v5.2.2"
 
-  url "https://github.com/WeakAuras/WeakAuras-Companion/releases/download/v5.1.3/WeakAuras-Companion-5.1.3-mac-universal.dmg"
+  url "https://github.com/WeakAuras/WeakAuras-Companion/releases/download/v5.2.2/WeakAuras-Companion-5.2.2-mac-universal.dmg"
   name "WeakAuras-Companion"
   desc "A cross-platform application built to provide the missing link between Wago.io and World of Warcraft"
   homepage "https://github.com/WeakAuras/WeakAuras-Companion"
-  sha256 "6fb4309dd234b3e5c32417737362cf59d8f4800398e91f2e59281b5668a92281"
+  sha256 "937991424e8115be9457f091a95f0e2f1193d11f8c8a9bac50225905823e9483"
 
   auto_updates true
 

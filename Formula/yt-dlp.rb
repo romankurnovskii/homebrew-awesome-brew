@@ -3,12 +3,13 @@ class YtDlp < Formula
 
   desc "Fork of youtube-dl with additional features and fixes"
   homepage "https://github.com/yt-dlp/yt-dlp"
-  url "https://files.pythonhosted.org/packages/31/05/4ad72bb6abca733af67eaf60c1c3a3dfb753ab423b904a137504ee60d44a/yt-dlp-2023.1.6.tar.gz"
+  url "https://files.pythonhosted.org/packages/93/f0/8d894dd24447945269d123f6a061520103fb790211c6846418c6ee1065ff/yt-dlp-2023.11.16.tar.gz"
   sha256 "f0ccdaf12e08b15902601a4671c7ab12906d7b11de3ae75fa6506811c24ec5da"
   license "Unlicense"
 
   head do
     url "https://bitbucket.org/sidneys/yt-dlp.git", branch: "feature-merge/yt-dlp"
+    # Building pandoc is very resource-intensive - install from pandoc.org
     depends_on "pandoc" => :build
   end
 
