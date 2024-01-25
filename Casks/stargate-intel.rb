@@ -1,11 +1,11 @@
 cask "stargate-intel" do
-  version "release-23.08.1"
+  version "release-24.02.1"
 
-  url "https://github.com/stargatedaw/stargate/releases/download/release-23.08.1/StargateDAW-23.08.1-macos-intel-x86_64.dmg"
+  url "https://github.com/stargatedaw/stargate/releases/download/release-24.02.1/StargateDAW-24.02.1-macos-intel-x86_64.dmg"
   name "stargate-intel"
   desc "Innovation-first digital audio workstation (DAW), instrument and effect plugins, wave editor."
   homepage "https://github.com/stargatedaw/stargate"
-  sha256 "b72dd4fecb180722a082d8f71940f0f801eff4cd05fc7f63eebb2bf9c8152462"
+  sha256 "d7a9a1e75290ec71836e05ee8d459ccfe01f533229ffed79fc2ed7b322c43cfc"
 
   auto_updates true
 
