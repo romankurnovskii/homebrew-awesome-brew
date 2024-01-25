@@ -462,6 +462,19 @@
         "intel": null,
         "universal": null
       }
+    },
+    {
+      "arch": {
+        "arm": "jan-mac-arm64-",
+        "intel": "jan-mac-x64-"
+      },
+      "description": "Jan Open-source ChatGPT alternative that runs 100% offline on your computer",
+      "repo": "https://github.com/janhq/jan",
+      "sha": {
+        "arm": null,
+        "intel": null,
+        "universal": null
+      }
     }
   ]
 }
