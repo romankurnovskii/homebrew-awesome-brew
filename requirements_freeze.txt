@@ -1,4 +1,4 @@
-GitPython==3.1.40
+GitPython==3.1.41
 certifi==2023.11.17
 cffi==1.16.0
 charset-normalizer==3.3.2
