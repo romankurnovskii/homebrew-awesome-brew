@@ -1,9 +1,9 @@
 class Ffmpeg < Formula
   desc "Play, record, convert, and stream audio and video"
   homepage "https://ffmpeg.org/"
-  url "https://ffmpeg.org/releases/ffmpeg-5.1.2.tar.xz"
-  version "5.1.2-with-options" # to distinguish from homebrew-core's ffmpeg
-  sha256 "619e706d662c8420859832ddc259cd4d4096a48a2ce1eefd052db9e440eef3dc"
+  url "https://ffmpeg.org/releases/ffmpeg-6.1.1.tar.xz"
+  version "6.1.1-with-options" # to distinguish from homebrew-core's ffmpeg
+  sha256 "8684f4b00f94b85461884c3719382f1261f0d9eb3d59640a1f4ac0873616f968"
   license "GPL-2.0-or-later"
   revision 1
   head "https://github.com/FFmpeg/FFmpeg.git", branch: "master"
@@ -18,11 +18,12 @@ class Ffmpeg < Formula
   option "with-fdk-aac", "Enable the Fraunhofer FDK AAC library"
   option "with-game-music-emu", "Enable Game Music Emu (GME) support"
   option "with-jack", "Enable Jack support"
+  option "with-libaom", "Enable libaom AV1 encoder library"
   option "with-libaribb24", "Enable decoding ARIB/ISDB captions"
   option "with-libmodplug", "Enable module/tracker files as inputs via libmodplug"
   option "with-libopenmpt", "Enable module/tracker files as inputs via libopenmpt"
   option "with-librist", "Enable Reliable Internet Stream Transport (RIST) support"
-  option "with-librsvg", "Enable SVG files as inputs via librsvg"
+  option "with-librsvg", "Enable SVG files as inputs via librsvg" # requires 'rust'
   option "with-libsoxr", "Enable the soxr resample library"
   option "with-libssh", "Enable SFTP protocol via libssh"
   option "with-tesseract", "Enable the tesseract OCR engine"
@@ -36,7 +37,7 @@ class Ffmpeg < Formula
   option "with-rtmpdump", "Enable RTMP dumping support"
   option "with-rubberband", "Enable rubberband library"
   option "with-webp", "Enable using libwebp to encode WEBP images"
-  option "with-zeromq", "Enable using libzeromq to receive cmds sent through a libzeromq client"
+  option "with-zeromq", "Enable using libzeromq to receive cmds sent through a libzeromq client" # requires 'boost'
   option "with-zimg", "Enable z.lib zimg library"
   option "with-srt", "Enable SRT library"
   option "with-libvmaf", "Enable libvmaf scoring library"
@@ -51,7 +52,6 @@ class Ffmpeg < Formula
 
   depends_on "pkg-config" => :build
 
-  depends_on "aom"
   depends_on "dav1d"
   depends_on "fontconfig"
   depends_on "freetype"
@@ -68,6 +68,7 @@ class Ffmpeg < Formula
   depends_on "x265"
   depends_on "xz"
 
+  depends_on "aom" => :optional
   depends_on "aribb24" => :optional
   depends_on "fdk-aac" => :optional
   depends_on "game-music-emu" => :optional
@@ -84,7 +85,6 @@ class Ffmpeg < Formula
   depends_on "libssh" => :optional
   depends_on "libvidstab" => :optional
   depends_on "libvmaf" => :optional
-  depends_on "libxml2" => :optional
   depends_on "opencore-amr" => :optional
   depends_on "openh264" => :optional
   depends_on "openjpeg" => :optional
@@ -105,12 +105,12 @@ class Ffmpeg < Formula
   depends_on "chromaprint" => :optional
 
   uses_from_macos "bzip2"
+  uses_from_macos "libxml2"
   uses_from_macos "zlib"
 
   on_linux do
     depends_on "alsa-lib"
     depends_on "libxv"
-    depends_on "gcc" => :optional
   end
 
   on_intel do
@@ -127,7 +127,6 @@ class Ffmpeg < Formula
       --host-cflags=#{ENV.cflags}
       --host-ldflags=#{ENV.ldflags}
       --enable-gpl
-      --enable-libaom
       --enable-libdav1d
       --enable-libmp3lame
       --enable-libopus
@@ -153,6 +152,7 @@ class Ffmpeg < Formula
 
     args << "--disable-htmlpages" # The same info is accessible through the man pages.
     args << "--enable-chromaprint" if build.with? "chromaprint"
+    args << "--enable-libaom" if build.with? "libaom"
     args << "--enable-libaribb24" if build.with? "libaribb24"
     args << "--enable-libbluray" if build.with? "libbluray"
     args << "--enable-libbs2b" if build.with? "libbs2b"
