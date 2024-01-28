@@ -475,6 +475,18 @@
         "intel": null,
         "universal": null
       }
+    },
+    {
+      "arch": {
+        "universal": "darwin.zip"
+      },
+      "description": "ollama - get up and running with Llama 2, Mistral, and other large language models locally",
+      "repo": "https://github.com/ollama/ollama",
+      "sha": {
+        "arm": null,
+        "intel": null,
+        "universal": null
+      }
     }
   ]
 }
