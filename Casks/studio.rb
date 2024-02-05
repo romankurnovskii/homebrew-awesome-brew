@@ -1,11 +1,11 @@
 cask "studio" do
-  version "v1.85.0"
+  version "v1.86.1"
 
-  url "https://github.com/foxglove/studio/releases/download/v1.85.0/foxglove-studio-1.85.0-mac-universal.dmg"
+  url "https://github.com/foxglove/studio/releases/download/v1.86.1/foxglove-studio-1.86.1-mac-universal.dmg"
   name "studio"
   desc "Robotics visualization and debugging"
   homepage "https://github.com/foxglove/studio"
-  sha256 "270a39a8c9e5a07e07d1477110214176e09391f3848705f74963d5c00505a65f"
+  sha256 "51a40d02d115559ff75ad9aaf39773b8c67f7cb5e2fe98655f22c24cd75e86ab"
 
   auto_updates true
 
