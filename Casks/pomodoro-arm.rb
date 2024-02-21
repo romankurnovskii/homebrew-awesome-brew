@@ -1,11 +1,11 @@
 cask "pomodoro-arm" do
-  version "v3.4.2"
+  version "v3.5.0"
 
-  url "https://github.com/G07cha/pomodoro/releases/download/v3.4.2/Pomodoro_3.4.2_aarch64.dmg"
+  url "https://github.com/G07cha/pomodoro/releases/download/v3.5.0/Pomodoro_3.5.0_aarch64.dmg"
   name "pomodoro-arm"
   desc "Pomodoro time managment tool build with Tauri"
   homepage "https://github.com/G07cha/pomodoro"
-  sha256 "f47836552cae5be861a844401df999f6eb4e5c82feda15d0cbcea5dc5ba24ec5"
+  sha256 "66ab5709b92b6d9735df32931f4a64d4ec0c40c5f20701a1cacd7d6241eb92c1"
 
   auto_updates true
 
