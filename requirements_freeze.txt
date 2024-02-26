@@ -2,7 +2,7 @@ GitPython==3.1.41
 certifi==2024.2.2
 cffi==1.16.0
 charset-normalizer==3.3.2
-cryptography==42.0.3
+cryptography==42.0.5
 Deprecated==1.2.14
 gitdb==4.0.11
 idna==3.6
