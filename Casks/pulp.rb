@@ -1,7 +1,7 @@
 cask "pulp" do
   version "v1.1.1"
 
-  url "https://github.com/bazalp/pulp/releases/download/v1.1.1/pulp_1.1.1_x64.dmg"
+  url "https://github.com/vincehi/pulp/releases/download/v1.1.1/pulp_1.1.1_x64.dmg"
   name "pulp"
   desc "Sample manager"
   homepage "https://github.com/bazalp/pulp"
