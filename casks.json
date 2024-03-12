@@ -500,6 +500,19 @@
         "intel": null,
         "universal": null
       }
+    },
+    {
+      "arch": {
+        "arm": "mac-m1.zip",
+        "intel": "mac.zip"
+      },
+      "description": "encrypt0r App to encrypt and decrypt your files with a passphrase",
+      "repo": "https://github.com/kunalnagar/encrypt0r",
+      "sha": {
+        "arm": null,
+        "intel": null,
+        "universal": null
+      }
     }
   ]
 }
