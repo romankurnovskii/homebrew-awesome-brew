@@ -465,8 +465,8 @@
     },
     {
       "arch": {
-        "arm": "arm64-0.4.4.dmg",
-        "intel": "x64-0.4.4.dmg"
+        "arm": "arm64-0.4.8.dmg",
+        "intel": "x64-0.4.8.dmg"
       },
       "description": "Jan - Open-source ChatGPT alternative that runs 100% offline on your computer",
       "repo": "https://github.com/janhq/jan",
@@ -482,6 +482,19 @@
       },
       "description": "ollama - get up and running with Llama 2, Mistral, and other large language models locally",
       "repo": "https://github.com/ollama/ollama",
+      "sha": {
+        "arm": null,
+        "intel": null,
+        "universal": null
+      }
+    },
+    {
+      "arch": {
+        "arm": "darwin-arm64-2.9.5.zip",
+        "intel": "darwin-x64-2.9.5.zip"
+      },
+      "description": "devkitty - swiss army knife for developers devkitty.app",
+      "repo": "https://github.com/egor-xyz/devkitty",
       "sha": {
         "arm": null,
         "intel": null,
