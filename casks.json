@@ -125,18 +125,6 @@
     },
     {
       "arch": {
-        "universal": null
-      },
-      "description": "Simplenote for Web, Windows, and Linux",
-      "repo": "https://github.com/Automattic/simplenote-electron",
-      "sha": {
-        "arm": null,
-        "intel": null,
-        "universal": null
-      }
-    },
-    {
-      "arch": {
         "universal": "darwin-x64.zip"
       },
       "description": "Disk And Memory Space Visualization App built with Electron & d3.js",
