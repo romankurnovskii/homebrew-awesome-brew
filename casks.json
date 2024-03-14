@@ -501,6 +501,18 @@
         "intel": null,
         "universal": null
       }
+    },
+    {
+      "arch": {
+        "universal": "mac_x64.dmg"
+      },
+      "description": "Yarle - The ultimate converter of Evernote notes to Markdown",
+      "repo": "https://github.com/akosbalasko/yarle",
+      "sha": {
+        "arm": null,
+        "intel": null,
+        "universal": null
+      }
     }
   ]
 }
