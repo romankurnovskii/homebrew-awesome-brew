@@ -513,6 +513,18 @@
         "intel": null,
         "universal": null
       }
+    },
+    {
+      "arch": {
+        "universal": "-mac.dmg"
+      },
+      "description": "Chess Variant Analysis GUI",
+      "repo": "https://github.com/ml-research/liground",
+      "sha": {
+        "arm": null,
+        "intel": null,
+        "universal": null
+      }
     }
   ]
 }
