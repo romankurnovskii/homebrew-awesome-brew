@@ -2,7 +2,7 @@ name: Run Python script on merge to master
 
 on:
   schedule:
-    - cron: '0 0 */3 * *'  # update at 00:00 every 3 days
+    - cron: '0 0 */1 * *'  # update at 00:00 every day
   push:
     branches:
       - main
