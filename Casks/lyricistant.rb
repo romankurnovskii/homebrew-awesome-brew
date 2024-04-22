@@ -1,11 +1,11 @@
 cask "lyricistant" do
-  version "v3.3.3"
+  version "v3.3.4+web.electron"
 
-  url "https://github.com/wardellbagby/lyricistant/releases/download/v3.3.3/lyricistant-mac_x64.dmg"
+  url "https://github.com/wardellbagby/lyricistant/releases/download/v3.3.4%2Bweb.electron/lyricistant-mac_x64.dmg"
   name "lyricistant"
   desc "A helpful writing assistant for lyricists!"
   homepage "https://github.com/wardellbagby/lyricistant"
-  sha256 "a335973044e50afb11bf7ba69e8c3eb15087316afaab54aedc02722c840c3701"
+  sha256 "2422519c6cc690616a69ed14c17f2bd4ee52c8253263116cf0b2def35b21d8a9"
 
   auto_updates true
 
