@@ -1,11 +1,11 @@
 cask "antares" do
-  version "v0.7.23"
+  version "v0.7.24"
 
-  url "https://github.com/antares-sql/antares/releases/download/v0.7.23/Antares-0.7.23-mac_x64.dmg"
+  url "https://github.com/antares-sql/antares/releases/download/v0.7.24/Antares-0.7.24-mac_x64.dmg"
   name "antares"
   desc "A modern, fast and productivity driven SQL client with a focus in UX."
   homepage "https://github.com/antares-sql/antares"
-  sha256 "61689af9c023d9fc57cc482a20e6439d7e5c0a632d03c813a880d864d80e049c"
+  sha256 "da273f11ad171509838c9e9e5b7b2b732f85bca68d40878ffbf58cece913e166"
 
   auto_updates true
 
