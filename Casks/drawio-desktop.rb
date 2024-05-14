@@ -1,11 +1,11 @@
 cask "drawio-desktop" do
-  version "v24.2.5"
+  version "v24.4.0"
 
-  url "https://github.com/jgraph/drawio-desktop/releases/download/v24.2.5/draw.io-universal-24.2.5.dmg"
+  url "https://github.com/jgraph/drawio-desktop/releases/download/v24.4.0/draw.io-universal-24.4.0.dmg"
   name "drawio-desktop"
   desc "Official electron build of draw.io"
   homepage "https://github.com/jgraph/drawio-desktop"
-  sha256 "896ba8f2768d2e6217923e63f6d641100a648ea822c346ed5bb75eacac1fd27b"
+  sha256 "7c46f1a67e94c29bcf56c90d1b218272621768dc0a7ad88269bb6e954ded3e13"
 
   auto_updates true
 
