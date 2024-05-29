@@ -1,11 +1,11 @@
 cask "desktop" do
-  version "v1.12.0"
+  version "v1.12.1"
 
-  url "https://github.com/TurboWarp/desktop/releases/download/v1.12.0/TurboWarp-Setup-1.12.0.dmg"
+  url "https://github.com/TurboWarp/desktop/releases/download/v1.12.1/TurboWarp-Setup-1.12.1.dmg"
   name "desktop"
   desc "Offline editor for Scratch 3"
   homepage "https://github.com/TurboWarp/desktop"
-  sha256 "8efd938059c75b22d029ef2f881322196a1c51b727af69025569ea517837c9fe"
+  sha256 "4c48bced00359401782a3a652cc823ac81f4232999986030d32a251b9e55d2b7"
 
   auto_updates true
 
