@@ -1,11 +1,11 @@
 cask "uyou-todo-electron-arm" do
-  version "2.2.1"
+  version "2.2.2"
 
-  url "https://github.com/tonylu110/uyou-todo-electron/releases/download/2.2.1/uyou.ToDo-2.2.1-arm64.dmg"
+  url "https://github.com/tonylu110/uyou-todo-electron/releases/download/2.2.2/uyou.ToDo-2.2.2-arm64.dmg"
   name "uyou-todo-electron-arm"
   desc "Robotics visualization and debugging"
   homepage "https://github.com/tonylu110/uyou-todo-electron"
-  sha256 "7a1cebe5e13146c2da46347d8c441f9676439ee762e74ab8075f91ad9980829d"
+  sha256 "a1747b4c9d9761edc1396d345a1ddd2aa659f61deb04feff83d774e697f37b09"
 
   auto_updates true
 
