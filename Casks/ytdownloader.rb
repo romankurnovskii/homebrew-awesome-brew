@@ -1,11 +1,11 @@
 cask "ytdownloader" do
-  version "v3.17.4"
+  version "v3.18.0"
 
-  url "https://github.com/aandrew-me/ytDownloader/releases/download/v3.17.4/YTDownloader_Mac.dmg"
+  url "https://github.com/aandrew-me/ytDownloader/releases/download/v3.18.0/YTDownloader_Mac.dmg"
   name "ytDownloader"
   desc "A modern GUI App for downloading Videos and Audios from hundreds of sites"
   homepage "https://github.com/aandrew-me/ytDownloader"
-  sha256 "263cf1580b39aa4d178d6426ebcc2363957623926e66d7cb69a434dc53c3916f"
+  sha256 "ccc7756edf1a647c3830264ec94a1042736090485248d11941cf400e9255e10f"
 
   auto_updates true
 
