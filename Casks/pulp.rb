@@ -1,11 +1,11 @@
 cask "pulp" do
-  version "v1.2.2"
+  version "v1.3.0"
 
-  url "https://github.com/vincehi/pulp/releases/download/v1.2.2/pulp_1.2.2_x64.dmg"
+  url "https://github.com/vincehi/pulp/releases/download/v1.3.0/pulp_1.3.0_x64.dmg"
   name "pulp"
   desc "Sample manager"
   homepage "https://github.com/bazalp/pulp"
-  sha256 "6eaf41b997ebb30f8cb92f803726f26632a2494838a6ac16ee563778d636ce9d"
+  sha256 "384e7906dc3f18f9f8c4d8556a86559614e5bfa3845e28b294a621ab6772a04d"
 
   auto_updates true
 
