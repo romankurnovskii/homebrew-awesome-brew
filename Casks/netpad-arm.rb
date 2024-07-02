@@ -1,11 +1,11 @@
 cask "netpad-arm" do
-  version "v0.7.1"
+  version "v0.7.2"
 
-  url "https://github.com/tareqimbasher/NetPad/releases/download/v0.7.1/netpad-0.7.1-mac-arm64.zip"
+  url "https://github.com/tareqimbasher/NetPad/releases/download/v0.7.2/netpad-0.7.2-mac-arm64.zip"
   name "NetPad-arm"
   desc "Robotics visualization and debugging"
   homepage "https://github.com/tareqimbasher/NetPad"
-  sha256 "077f15ca3bbddeb4548a352f4cff765b3858bd4cfbfca8d5bf9b8fe86e9488b4"
+  sha256 "db2514c12f0635c9d5793359199184841ad7ac9fd929ad2a3d58b33de88a5ea5"
 
   auto_updates true
 

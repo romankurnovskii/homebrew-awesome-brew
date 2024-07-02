@@ -1,11 +1,11 @@
 cask "final2x-intel" do
-  version "2024-06-29"
+  version "2024-07-01"
 
-  url "https://github.com/Tohrusky/Final2x/releases/download/2024-06-29/Final2x-macos-x64-dmg.dmg"
+  url "https://github.com/Tohrusky/Final2x/releases/download/2024-07-01/Final2x-macos-x64-dmg.dmg"
   name "Final2x-intel"
   desc "2^x Image Super-Resolution"
   homepage "https://github.com/Tohrusky/Final2x"
-  sha256 "4fdc8c00ede75748866d2a4fbb4e2f61212c40a4f3d267131d184063936f3a43"
+  sha256 "07d34e0b31cc093b6e674b9682ea72fe7cab37a897f7862411b4427ad62e9800"
 
   auto_updates true
 
