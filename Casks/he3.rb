@@ -4,7 +4,7 @@ cask "he3" do
   sha256 arm:   "35d1217f5431ed90bbaeda17fb6d6db3eff201fb79d02a3589fa5b7f0e66771f",
          intel: "dd9bd9b8fafd6c84831bb2447266a97b06e91d4383d939de72fb3a7b44dd96fb"
           
-  url "https://he3-1309519128.cos.accelerate.myqcloud.com/#{version}/He3_mac_#{arch}_#{version}.dmg"
+  url "https://dl.he3app.com/#{version}/He3_mac_#{arch}_#{version}.dmg"
   
   livecheck do
     url :url
