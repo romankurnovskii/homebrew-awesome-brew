@@ -1,11 +1,11 @@
 cask "chatall-intel" do
-  version "v1.80.106"
+  version "v1.82.107"
 
-  url "https://github.com/sunner/ChatALL/releases/download/v1.80.106/ChatALL-1.80.106-mac-x64.dmg"
+  url "https://github.com/sunner/ChatALL/releases/download/v1.82.107/ChatALL-1.82.107-mac-x64.dmg"
   name "ChatALL-intel"
   desc "Concurrently chat with ChatGPT, Bing Chat, bard, Alpaca, Vincuna, Claude, ChatGLM, MOSS, iFlytek Spark, ERNIE and more, discover the best answers"
   homepage "https://github.com/sunner/ChatALL"
-  sha256 "13a564f19dd7706c134d18b6f6988f5a376fa45273502b79320868001e80c2e1"
+  sha256 "5451155e7e7ce98850f7110784ae694805de55259d89fc5a6e112e6d45ca58a0"
 
   auto_updates true
 
