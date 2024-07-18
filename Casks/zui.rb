@@ -1,11 +1,11 @@
 cask "zui" do
-  version "v1.8.0"
+  version "v1.17.0"
 
-  url "https://github.com/brimdata/zui/releases/download/v1.8.0/Zui-1.8.0-mac.zip"
+  url "https://github.com/brimdata/zui/releases/download/v1.17.0/Zui-1.17.0-mac.zip"
   name "zui"
   desc "Zui is a powerful desktop application for exploring and working with data. The official front-end to the Zed lake."
   homepage "https://github.com/brimdata/zui"
-  sha256 "6e446b5c32cca866ecade79b054bbb91d3bfcd597206d24d17449ed0a8f0c143"
+  sha256 "e438e60ba4b80310d9cae0b82293b317a0f0a54807bbb5bf21836ae598959890"
 
   auto_updates true
 
