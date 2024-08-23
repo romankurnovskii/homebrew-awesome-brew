@@ -1,11 +1,11 @@
 cask "books" do
-  version "v0.21.2"
+  version "v0.22.0"
 
-  url "https://github.com/frappe/books/releases/download/v0.21.2/Frappe-Books-0.21.2-mac.zip"
+  url "https://github.com/frappe/books/releases/download/v0.22.0/Frappe-Books-0.22.0-arm64-mac.zip"
   name "books"
   desc "Free Accounting Software"
   homepage "https://github.com/frappe/books"
-  sha256 "ec271ea866ded1a0f0b08a21d75d91778f31caebd927dd97b9ff9a3749bb3fdf"
+  sha256 "2234debb96a872cc638eef516ab47bc730f282bfcfa04e9554a139afbcc98ab1"
 
   auto_updates true
 
