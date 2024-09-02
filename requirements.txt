@@ -1,4 +1,4 @@
 GitPython==3.1.43
-pygithub==2.3.0
+pygithub==2.4.0
 python-dotenv==1.0.1
 requests==2.32.3
