@@ -1,7 +1,7 @@
 cask "chatall-arm" do
   version "v1.82.107"
 
-  url "https://github.com/sunner/ChatALL/releases/download/v1.82.107/ChatALL-1.82.107-mac-arm64.dmg"
+  url "https://github.com/ai-shifu/ChatALL/releases/download/v1.82.107/ChatALL-1.82.107-mac-arm64.dmg"
   name "ChatALL-arm"
   desc "Concurrently chat with ChatGPT, Bing Chat, bard, Alpaca, Vincuna, Claude, ChatGLM, MOSS, iFlytek Spark, ERNIE and more, discover the best answers"
   homepage "https://github.com/sunner/ChatALL"
