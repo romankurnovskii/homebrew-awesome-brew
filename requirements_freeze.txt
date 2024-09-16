@@ -5,7 +5,7 @@ charset-normalizer==3.3.2
 cryptography==43.0.0
 Deprecated==1.2.14
 gitdb==4.0.11
-idna==3.8
+idna==3.10
 pycparser==2.22
 PyGithub==2.3.0
 PyJWT==2.9.0
