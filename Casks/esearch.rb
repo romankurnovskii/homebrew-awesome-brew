@@ -1,11 +1,11 @@
 cask "esearch" do
-  version "13.1.6"
+  version "14.0.1"
 
-  url "https://github.com/xushengfeng/eSearch/releases/download/13.1.6/eSearch-13.1.6-darwin-x64.dmg"
+  url "https://github.com/xushengfeng/eSearch/releases/download/14.0.1/eSearch-14.0.1-darwin-x64.dmg"
   name "eSearch"
   desc "Screenshot OCR search translate search for picture paste the picture on the screen screen recorder"
   homepage "https://github.com/xushengfeng/eSearch"
-  sha256 "ed0ee1c7fb0ec32765e47eaedbd16e5f8b5e89df061624734f9e21c57444e7c5"
+  sha256 "1386adcca47ea2a6344cd68de5193185edae79ba044b2cef2b298e190620e121"
 
   auto_updates true
 
