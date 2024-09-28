@@ -1,11 +1,11 @@
 cask "affine-arm" do
-  version "v0.17.1"
+  version "v0.17.2"
 
-  url "https://github.com/toeverything/AFFiNE/releases/download/v0.17.1/affine-0.17.1-stable-macos-arm64.dmg"
+  url "https://github.com/toeverything/AFFiNE/releases/download/v0.17.2/affine-0.17.2-stable-macos-arm64.dmg"
   name "AFFiNE-arm"
   desc "Knowledge base that brings planning, sorting and creating all together. Notion and Miro."
   homepage "https://github.com/toeverything/AFFiNE"
-  sha256 "d6a5c8b353f8fda525c863b3516719b5a2d6cb7dd4159b77c5a8c0939c764d7f"
+  sha256 "7c562365be185a5d55a1994b3cb6d8ce2aeaf62a0abdc9f661f19c0269644408"
 
   auto_updates true
 
