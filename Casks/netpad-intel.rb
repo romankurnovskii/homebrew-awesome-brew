@@ -1,11 +1,11 @@
 cask "netpad-intel" do
-  version "v0.7.2"
+  version "v0.8.0"
 
-  url "https://github.com/tareqimbasher/NetPad/releases/download/v0.7.2/netpad-0.7.2-mac-x64.zip"
+  url "https://github.com/tareqimbasher/NetPad/releases/download/v0.8.0/netpad-0.8.0-mac-x64.zip"
   name "NetPad-intel"
   desc "Robotics visualization and debugging"
   homepage "https://github.com/tareqimbasher/NetPad"
-  sha256 "c3e6e0a794d811377d684981b6b1b8b54378544538b104a1eef738c6294dcd92"
+  sha256 "07e24915611469a7b97e1985856c3f6374d69925d83d4cc45c21c78d35f92039"
 
   auto_updates true
 
