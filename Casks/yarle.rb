@@ -1,11 +1,11 @@
 cask "yarle" do
-  version "v6.15.1"
+  version "v6.15.2"
 
-  url "https://github.com/akosbalasko/yarle/releases/download/v6.15.1/yarle-evernote-to-md_mac_x64.dmg"
+  url "https://github.com/akosbalasko/yarle/releases/download/v6.15.2/yarle-evernote-to-md_mac_x64.dmg"
   name "yarle"
   desc "Yarle - The ultimate converter of Evernote notes to Markdown"
   homepage "https://github.com/akosbalasko/yarle"
-  sha256 "fb30c3982f83fd90f61e298721bf6913a7cac5703268070b29e135420ff28248"
+  sha256 "1ad73f8c5329a0aab8a6aa46f289e1a5b76d4c23e8333e4724d360961bed081d"
 
   auto_updates true
 
