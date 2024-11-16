@@ -1,11 +1,11 @@
 cask "ollama" do
-  version "v0.4.1"
+  version "v0.4.2"
 
-  url "https://github.com/ollama/ollama/releases/download/v0.4.1/Ollama-darwin.zip"
+  url "https://github.com/ollama/ollama/releases/download/v0.4.2/Ollama-darwin.zip"
   name "ollama"
   desc "ollama - get up and running with Llama 2, Mistral, and other large language models locally"
   homepage "https://github.com/ollama/ollama"
-  sha256 "7aa7961b8bbbbe595407c56fd98030e62f5cfcb9bfad6c946b4f924cbf6268b9"
+  sha256 "5dcd5b2ba854dace9dec0c1a790d76658da6615afc27a5d44e7bc54df39c7080"
 
   auto_updates true
 
