@@ -14,4 +14,4 @@ python-dotenv==1.0.1
 requests==2.32.3
 smmap==5.0.1
 urllib3==2.2.3
-wrapt==1.16.0
+wrapt==1.17.0
