@@ -1,11 +1,11 @@
 cask "photos-desktop" do
-  version "v1.7.6"
+  version "v1.7.7"
 
-  url "https://github.com/ente-io/photos-desktop/releases/download/v1.7.6/ente-1.7.6-universal.dmg"
+  url "https://github.com/ente-io/photos-desktop/releases/download/v1.7.7/ente-1.7.7-universal.dmg"
   name "photos-desktop"
   desc "Desktop app for ente Photos"
   homepage "https://github.com/ente-io/photos-desktop"
-  sha256 "4e03526160419e7eefc9f927f06360080fcdd1c8325b568ef5a6458e58f215fe"
+  sha256 "c2c62578c850ed8670b2aaa24e3d19977481dd08618d6d2770ec916f574cf346"
 
   auto_updates true
 
