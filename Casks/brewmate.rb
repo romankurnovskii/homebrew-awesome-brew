@@ -1,11 +1,11 @@
 cask "brewmate" do
-  version "0.4.3"
+  version "0.4.4"
 
-  url "https://github.com/romankurnovskii/BrewMate/releases/download/0.4.3/BrewMate-0.4.3-universal-mac.zip"
+  url "https://github.com/romankurnovskii/BrewMate/releases/download/0.4.4/BrewMate-0.4.4-universal-mac.zip"
   name "BrewMate"
   desc "Homebrew GUI apps manager"
   homepage "https://github.com/romankurnovskii/BrewMate"
-  sha256 "8bae065be6b4a3f113a651ffffd632b7a7ea40f4b608b1fc90c058905de3d85b"
+  sha256 "bb29e1848e087302d5cb6a736e77bff128d36abca84a8f51edb97b45143fb130"
 
   auto_updates true
 
