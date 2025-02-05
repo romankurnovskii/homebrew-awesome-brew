@@ -15,6 +15,15 @@
   ],
   "releaseOnly": [
     {
+      "description": "Alspotron: Shows the egg lyrics of the track, playing on Spotify / YouTube Music",
+      "repo": https://github.com/organization/alspotron",
+      "arch": {
+        "arm": "arm64.dmg",
+        "intel": ".dmg"
+      },
+      "sha": {}
+    },
+    {
       "description": "TriliumNext Notes - personal knowledge base",
       "repo": "https://github.com/TriliumNext/Notes",
       "arch": {
