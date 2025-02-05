@@ -15,6 +15,19 @@
   ],
   "releaseOnly": [
     {
+      "description": "Open source and community driven crypto wallet",
+      "repo": "https://github.com/OneKeyHQ/app-monorepo",
+      "arch": {
+        "arm": "mac-arm64.dmg",
+        "intel": "mac-x64.dmg"
+      },
+      "sha": {
+        "arm": null,
+        "intel": null,
+        "universal": null
+      }
+    },
+    {
       "arch": {
         "universal": "universal-mac.zip"
       },
@@ -41,6 +54,10 @@
     {
       "description": "Diffusion is the easiest way to run Stable Diffusion locally on your M1 Mac. Comes with a one-click installer. No dependencies or technical knowledge needed.",
       "repo": "https://github.com/divamgupta/diffusionbee-stable-diffusion-ui",
+      "arch": {
+        "arm": "arm64-2.5.3.dmg",
+        "intel": "Intel-2.5.3.dmg"
+      },
       "sha": {
         "arm": null,
         "intel": null,
