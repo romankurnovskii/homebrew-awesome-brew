@@ -16,6 +16,19 @@
   "releaseOnly": [
     {
       "arch": {
+        "arm": "macos-arm64.dmg",
+        "intel": "macos-x64.dmg"
+      },
+      "description": "A privacy-focused, local-first, ready-to-use alternative for Notion & Miro",
+      "repo": "https://github.com/toeverything/AFFiNE",
+      "sha": {
+        "arm": null,
+        "intel": null,
+        "universal": null
+      }
+    },
+    {
+      "arch": {
         "universal": "universal-mac.zip"
       },
       "description": "Homebrew GUI apps manager",
