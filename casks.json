@@ -15,6 +15,19 @@
   ],
   "releaseOnly": [
     {
+      "description": "TriliumNext Notes - personal knowledge base",
+      "repo": "https://github.com/TriliumNext/Notes",
+      "arch": {
+        "arm": "macos-arm64.dmg",
+        "intel": "macos-x64.dmg"
+      },
+      "sha": {
+        "arm": null,
+        "intel": null,
+        "universal": null
+      }
+    },
+    {
       "description": "Lapki IDE - Графическая IDE для киберфизических систем",
       "repo": "https://github.com/kruzhok-team/lapki-client",
       "arch": {
