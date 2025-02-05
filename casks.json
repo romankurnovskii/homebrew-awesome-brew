@@ -15,8 +15,16 @@
   ],
   "releaseOnly": [
     {
+      "description": "DNS Changer for Windows, Linux, Mac operating systems",
+      "repo": "https://github.com/DnsChanger/dnsChanger-desktop",
+      "arch": {
+        "arm": ".dmg"
+      },
+      "sha": {}
+    },
+    {
       "description": "Alspotron: Shows the egg lyrics of the track, playing on Spotify / YouTube Music",
-      "repo": https://github.com/organization/alspotron",
+      "repo": "https://github.com/organization/alspotron",
       "arch": {
         "arm": "arm64.dmg",
         "intel": ".dmg"
