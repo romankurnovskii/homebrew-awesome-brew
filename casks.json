@@ -15,6 +15,18 @@
   ],
   "releaseOnly": [
     {
+      "description": "Lapki IDE - Графическая IDE для киберфизических систем",
+      "repo": "https://github.com/kruzhok-team/lapki-client",
+      "arch": {
+        "universal": ".dmg"
+      },
+      "sha": {
+        "arm": null,
+        "intel": null,
+        "universal": null
+      }
+    },
+    {
       "description": "Open source and community driven crypto wallet",
       "repo": "https://github.com/OneKeyHQ/app-monorepo",
       "arch": {
