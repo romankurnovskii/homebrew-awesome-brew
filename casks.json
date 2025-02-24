@@ -15,6 +15,15 @@
   ],
   "releaseOnly": [
     {
+      "description": "Cursor for Designers. Design directly in your live React app and publish your changes to code onlook.com",
+      "repo": "https://github.com/onlook-dev/onlook",
+      "arch": {
+        "arm": "arm64.dmg",
+        "intel": "x64.dmg"
+      },
+      "sha": {}
+    },
+    {
       "description": "DNS Changer for Windows, Linux, Mac operating systems",
       "repo": "https://github.com/DnsChanger/dnsChanger-desktop",
       "arch": {
