@@ -1,11 +1,11 @@
 cask "onlook-arm" do
-  version "v0.2.11"
+  version "v0.2.12"
 
-  url "https://github.com/onlook-dev/onlook/releases/download/v0.2.11/Onlook-arm64.dmg"
+  url "https://github.com/onlook-dev/onlook/releases/download/v0.2.12/Onlook-arm64.dmg"
   name "onlook-arm"
   desc "Cursor for Designers. Design directly in your live React app and publish your changes to code onlook.com"
   homepage "https://github.com/onlook-dev/onlook"
-  sha256 "b10a23a97b38e352a7f744da06dc9bbc63df288eae0cf8b963648dccb80d1cb0"
+  sha256 "615ca9599b3992ece938cbfccb7301bd1dbed92e59893c1e12109355a4366870"
 
   auto_updates true
 
