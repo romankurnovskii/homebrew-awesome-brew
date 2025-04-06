@@ -1,11 +1,11 @@
 cask "onlook-intel" do
-  version "v0.2.24"
+  version "v0.2.25"
 
-  url "https://github.com/onlook-dev/onlook/releases/download/v0.2.24/Onlook-x64.dmg"
+  url "https://github.com/onlook-dev/onlook/releases/download/v0.2.25/Onlook-x64.dmg"
   name "onlook-intel"
   desc "Cursor for Designers. Design directly in your live React app and publish your changes to code onlook.com"
   homepage "https://github.com/onlook-dev/onlook"
-  sha256 "3e36d0717c1a86eef8606143316b46e999b1dd5dcf98bc3e3cfeb0a295012916"
+  sha256 "dcb50e3fff4e763209a8d3ebac138e40da69792acbd6f56dca791ef98da1da12"
 
   auto_updates true
 
