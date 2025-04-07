@@ -1,11 +1,11 @@
 cask "notes-arm" do
-  version "v0.92.4"
+  version "v0.92.6"
 
-  url "https://github.com/TriliumNext/Notes/releases/download/v0.92.4/TriliumNextNotes-v0.92.4-macos-arm64.dmg"
+  url "https://github.com/TriliumNext/Notes/releases/download/v0.92.6/TriliumNextNotes-v0.92.6-macos-arm64.dmg"
   name "Notes-arm"
   desc "TriliumNext Notes - personal knowledge base"
   homepage "https://github.com/TriliumNext/Notes"
-  sha256 "e7b9a4a3d5c6b6092547fbe8bb61da076c640ab719512baab78e1da8dd099968"
+  sha256 "c1cbaa47982b02fdfdfc1fb8c07aa24237a7c431c5892b8fa03a8b084597c016"
 
   auto_updates true
 
