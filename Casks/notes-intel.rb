@@ -1,11 +1,11 @@
 cask "notes-intel" do
-  version "v0.92.7"
+  version "v0.93.0"
 
-  url "https://github.com/TriliumNext/Notes/releases/download/v0.92.7/TriliumNextNotes-v0.92.7-macos-x64.dmg"
+  url "https://github.com/TriliumNext/Notes/releases/download/v0.93.0/TriliumNextNotes-v0.93.0-macos-x64.dmg"
   name "Notes-intel"
   desc "TriliumNext Notes - personal knowledge base"
   homepage "https://github.com/TriliumNext/Notes"
-  sha256 "da10d1a526c9e1fa34e8841b441997b63a3527bfdd62c996f5b2529f37408e38"
+  sha256 "66856caf81ed6236f2b47155a19534aaa2ec491fc19eb1ecd23fc2cbe18aba8f"
 
   auto_updates true
 
