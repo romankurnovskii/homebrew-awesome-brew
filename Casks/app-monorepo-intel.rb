@@ -1,11 +1,11 @@
 cask "app-monorepo-intel" do
-  version "v5.7.1"
+  version "v5.8.0"
 
-  url "https://github.com/OneKeyHQ/app-monorepo/releases/download/v5.7.1/OneKey-Wallet-5.7.1-mac-x64.dmg"
+  url "https://github.com/OneKeyHQ/app-monorepo/releases/download/v5.8.0/OneKey-Wallet-5.8.0-mac-x64.dmg"
   name "app-monorepo-intel"
   desc "Open source and community driven crypto wallet"
   homepage "https://github.com/OneKeyHQ/app-monorepo"
-  sha256 "23c8f40f1b0419f273601a53770351a69be6d9304b618299572f8d021dc9718b"
+  sha256 "afc9692bff7020410932c9d3daee800f24f71da402dcf8ef288bb0bdd9dc4539"
 
   auto_updates true
 
