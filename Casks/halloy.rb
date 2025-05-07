@@ -1,11 +1,11 @@
 cask "halloy" do
-  version "2025.4"
+  version "2025.5"
 
-  url "https://github.com/squidowl/halloy/releases/download/2025.4/halloy.dmg"
+  url "https://github.com/squidowl/halloy/releases/download/2025.5/halloy.dmg"
   name "halloy"
   desc "IRC application written in Rust"
   homepage "https://github.com/squidowl/halloy"
-  sha256 "004e946e483139636e0c3e3fcc10cd592c2774edd7ae7a9142d8d6137835e6f6"
+  sha256 "c47e3d88f87f92fa84e0b76cb02bcb553a751bd4a683d47ffb343588e6de5890"
 
   auto_updates true
 
