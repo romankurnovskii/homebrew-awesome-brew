@@ -1,18 +1,4 @@
 {
-  "casks": [
-    {
-      "description": "desktop chatgpt",
-      "repo": "https://github.com/lencx/ChatGPT"
-    },
-    {
-      "description": "",
-      "repo": "https://github.com/shemeshg/homebrew-tap"
-    },
-    {
-      "description": "A Free, Modern Toolbox Built for Developers.",
-      "repo": "https://github.com/he3-app/homebrew-he3"
-    }
-  ],
   "releaseOnly": [
     {
       "description": "Cursor for Designers. Design directly in your live React app and publish your changes to code onlook.com",
@@ -593,6 +579,33 @@
         "intel": null,
         "universal": null
       }
+    },
+    {
+      "arch": {
+        "arm": "-arm64.dmg",
+        "intel": ".dmg"
+      },
+      "description": "YouTube Music Desktop / built-in ad blocker / downloader",
+      "repo": "https://github.com/th-ch/youtube-music",
+      "sha": {
+        "arm": null,
+        "intel": null,
+        "universal": null
+      }
+    },
+  ],
+  "casks": [
+    {
+      "description": "desktop chatgpt",
+      "repo": "https://github.com/lencx/ChatGPT"
+    },
+    {
+      "description": "",
+      "repo": "https://github.com/shemeshg/homebrew-tap"
+    },
+    {
+      "description": "A Free, Modern Toolbox Built for Developers.",
+      "repo": "https://github.com/he3-app/homebrew-he3"
     }
   ]
 }
