@@ -592,6 +592,18 @@
         "intel": null,
         "universal": null
       }
+    },
+    {
+      "arch": {
+        "universal": ".dmg"
+      },
+      "description": "An application that can dock any window to the edge of the screen",
+      "repo": "https://github.com/XiCheng148/Dockit",
+      "sha": {
+        "arm": null,
+        "intel": null,
+        "universal": null
+      }
     }
   ],
   "casks": [
