@@ -1,7 +1,7 @@
 cask "trilium" do
   version "v0.63.7"
 
-  url "https://github.com/zadam/trilium/releases/download/v0.63.7/trilium-mac-x64-0.63.7.zip"
+  url "https://github.com/TriliumNext/trilium/releases/download/v0.63.7/trilium-mac-x64-0.63.7.zip"
   name "trilium"
   desc "Build your personal knowledge base with Trilium Notes"
   homepage "https://github.com/zadam/trilium"
