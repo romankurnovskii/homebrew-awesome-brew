@@ -5,7 +5,7 @@ cask "lapki-client" do
   name "lapki-client"
   desc "Lapki IDE - Графическая IDE для киберфизических систем"
   homepage "https://github.com/kruzhok-team/lapki-client"
-  sha256 "897aab5f4a541222c4ac72236e54752d26bb020779a0da3208dc8fd41cbf8036"
+  sha256 "357df23214914ae8bb0f9b71616c1b02865c1e4af3d6d105d0fe0f10fa00f4d3"
 
   auto_updates true
 
