@@ -608,14 +608,6 @@
   ],
   "casks": [
     {
-      "description": "desktop chatgpt",
-      "repo": "https://github.com/lencx/ChatGPT"
-    },
-    {
-      "description": "",
-      "repo": "https://github.com/shemeshg/homebrew-tap"
-    },
-    {
       "description": "A Free, Modern Toolbox Built for Developers.",
       "repo": "https://github.com/he3-app/homebrew-he3"
     }
