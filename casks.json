@@ -610,6 +610,10 @@
     {
       "description": "A Free, Modern Toolbox Built for Developers.",
       "repo": "https://github.com/he3-app/homebrew-he3"
+    },
+    {
+      "description": "",
+      "repo": "https://github.com/shemeshg/homebrew-tap"
     }
   ]
 }
