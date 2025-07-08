@@ -604,6 +604,18 @@
         "intel": null,
         "universal": null
       }
+    },
+    {
+      "arch": {
+        "universal": ".dmg"
+      },
+      "description": "Menu bar utility that lets you glue two windows together so that they behave (mostly) as one",
+      "repo": "https://github.com/Conxt/WindowGlue",
+      "sha": {
+        "arm": null,
+        "intel": null,
+        "universal": null
+      }
     }
   ],
   "casks": [
