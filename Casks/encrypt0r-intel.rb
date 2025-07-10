@@ -1,11 +1,11 @@
 cask "encrypt0r-intel" do
-  version "v3.12.57"
+  version "v3.12.58"
 
-  url "https://github.com/kunalnagar/encrypt0r/releases/download/v3.12.57/encrypt0r-mac.zip"
+  url "https://github.com/kunalnagar/encrypt0r/releases/download/v3.12.58/encrypt0r-mac.zip"
   name "encrypt0r-intel"
   desc "encrypt0r App to encrypt and decrypt your files with a passphrase"
   homepage "https://github.com/kunalnagar/encrypt0r"
-  sha256 "51577fce8f411c7085d68832b6821ecfc15ac4e6a0159b597561dbee99ba5075"
+  sha256 "4eef9a53dad2a5528fddeb0342063fc43682f85707a3d286aaf00e9e738f788e"
 
   auto_updates true
 
