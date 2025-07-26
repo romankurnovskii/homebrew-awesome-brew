@@ -1,11 +1,11 @@
 cask "alspotron-arm" do
-  version "v0.26.2"
+  version "v0.26.3"
 
-  url "https://github.com/organization/lyrs/releases/download/v0.26.2/Lyrs-0.26.2-arm64.dmg"
+  url "https://github.com/organization/lyrs/releases/download/v0.26.3/Lyrs-0.26.3-arm64.dmg"
   name "alspotron-arm"
   desc "Alspotron: Shows the egg lyrics of the track, playing on Spotify / YouTube Music"
   homepage "https://github.com/organization/alspotron"
-  sha256 "dbfd2e9d1f14650745cafb8b78d8230be91cc13c98e33123b95707f88e1b60ae"
+  sha256 "327d2b3930e3cfe42744d14959329bc1aa3a51c002fc3f04ec72f4d2b4750a02"
 
   auto_updates true
 
