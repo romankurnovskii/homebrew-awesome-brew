@@ -620,6 +620,10 @@
   ],
   "casks": [
     {
+      "description": "Local-first AI Notepad for Private Meetings",
+      "repo": "https://github.com/fastrepl/homebrew-hyprnote"
+    },
+    {
       "description": "A Free, Modern Toolbox Built for Developers.",
       "repo": "https://github.com/he3-app/homebrew-he3"
     },
