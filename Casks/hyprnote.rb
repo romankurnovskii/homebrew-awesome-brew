@@ -3,7 +3,7 @@ cask "hyprnote" do
   version :latest
   sha256 :no_check
   
-  url "https://cdn.crabnebula.app/download/fastrepl/hyprnote/latest/platform/dmg-#{arch}?channel=stable"
+  url "https://desktop.hyprnote.com/download/latest/dmg-#{arch}?channel=stable"
   name "Hyprnote"
   desc "Hyprnote application"
   homepage "https://github.com/fastrepl/hyprnote"
