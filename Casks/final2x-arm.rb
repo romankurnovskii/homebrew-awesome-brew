@@ -1,11 +1,11 @@
 cask "final2x-arm" do
-  version "2024-12-14"
+  version "2025-08-16"
 
-  url "https://github.com/TensoRaws/Final2x/releases/download/2024-12-14/Final2x-macos-arm64-dmg.dmg"
+  url "https://github.com/TensoRaws/Final2x/releases/download/2025-08-16/Final2x-macos-arm64-dmg.dmg"
   name "Final2x-arm"
   desc "2^x Image Super-Resolution"
   homepage "https://github.com/Tohrusky/Final2x"
-  sha256 "a28d60ac4d7c1bed3207b44fbd8ff4ac2403256bfc2c2599ee0487c7bf3f7c51"
+  sha256 "a1e90f74c00c966b5749e533917027175c5a112cd319425419a3666b15a9f9cd"
 
   auto_updates true
 
