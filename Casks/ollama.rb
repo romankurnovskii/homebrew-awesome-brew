@@ -5,7 +5,7 @@ cask "ollama" do
   name "ollama"
   desc "ollama - get up and running with Llama 2, Mistral, and other large language models locally"
   homepage "https://github.com/ollama/ollama"
-  sha256 "79bfb00596035d220b19e78b87a8fbc2e66dd8fb7fe33667c8e80cd09536114a"
+  sha256 "b86f229f08b4f5aa0f5ed4285af9e18c1584cdb374a8aaec739efeace1df60d3"
 
   auto_updates true
 
