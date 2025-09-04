@@ -1,7 +1,7 @@
 cask "final2x-arm" do
   version "2025-08-16"
 
-  url "https://github.com/TensoRaws/Final2x/releases/download/2025-08-16/Final2x-macos-arm64-dmg.dmg"
+  url "https://github.com/EutropicAI/Final2x/releases/download/2025-08-16/Final2x-macos-arm64-dmg.dmg"
   name "Final2x-arm"
   desc "2^x Image Super-Resolution"
   homepage "https://github.com/Tohrusky/Final2x"
