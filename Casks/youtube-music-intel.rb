@@ -1,11 +1,11 @@
 cask "youtube-music-intel" do
-  version "v3.10.0"
+  version "v3.11.0"
 
-  url "https://github.com/th-ch/youtube-music/releases/download/v3.10.0/YouTube-Music-3.10.0.dmg"
+  url "https://github.com/th-ch/youtube-music/releases/download/v3.11.0/YouTube-Music-3.11.0.dmg"
   name "youtube-music-intel"
   desc "YouTube Music Desktop / built-in ad blocker / downloader"
   homepage "https://github.com/th-ch/youtube-music"
-  sha256 "36b3eeccf9f8545517aebd5490db7fb392c57006de27a770937e1c260755380d"
+  sha256 "27f74b53c7c4dd8c77ce44d7c7d0f955cb083e5251701e6ca2b3781e85c4e373"
 
   auto_updates true
 
