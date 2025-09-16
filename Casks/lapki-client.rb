@@ -1,11 +1,11 @@
 cask "lapki-client" do
-  version "v0.5.0"
+  version "v0.6.0"
 
-  url "https://github.com/kruzhok-team/lapki-client/releases/download/v0.5.0/lapki-ide-v0.5.0.dmg"
+  url "https://github.com/kruzhok-team/lapki-client/releases/download/v0.6.0/lapki-ide-v0.6.0.dmg"
   name "lapki-client"
   desc "Lapki IDE - Графическая IDE для киберфизических систем"
   homepage "https://github.com/kruzhok-team/lapki-client"
-  sha256 "357df23214914ae8bb0f9b71616c1b02865c1e4af3d6d105d0fe0f10fa00f4d3"
+  sha256 "fcee495a585283f40377cbd9a2fdc73f64793c5eee3abf0b2b82ea701c74d913"
 
   auto_updates true
 
