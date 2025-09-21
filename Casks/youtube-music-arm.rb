@@ -1,7 +1,7 @@
 cask "youtube-music-arm" do
   version "v3.11.0"
 
-  url "https://github.com/th-ch/youtube-music/releases/download/v3.11.0/YouTube-Music-3.11.0-arm64.dmg"
+  url "https://github.com/ytmd-devs/ytmd/releases/download/v3.11.0/YouTube-Music-3.11.0-arm64.dmg"
   name "youtube-music-arm"
   desc "YouTube Music Desktop / built-in ad blocker / downloader"
   homepage "https://github.com/th-ch/youtube-music"
