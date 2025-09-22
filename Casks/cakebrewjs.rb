@@ -1,6 +1,6 @@
 cask "cakebrewjs" do
-  version "2.86"
-  sha256 "ef16946899cc9ac405bde5d6e1624074264e7f7800aa74d63270f9bab33c927e"
+  version "2.88"
+  sha256 "4a4db49c9c0f8f9277a196c4c97f42716bdf7a259cfc60dc1f3fdd2f25602088"
 
   url "https://downloads.sourceforge.net/cakebrewjs/Cakebrewjs-#{version}-Darwin.dmg"
   name "cakebrewjs"
@@ -11,6 +11,8 @@ cask "cakebrewjs" do
     url :url
     regex(%r{url=.*?/cakebrewjs[._-]v?(\d+(?:\.\d+)+)(?:[._-]Darwin)?\.dmg}i)
   end
+
+  depends_on macos: ">= :tahoe"
 
   app "cakebrewjs.app"
 
