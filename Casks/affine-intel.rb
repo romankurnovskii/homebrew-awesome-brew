@@ -1,11 +1,11 @@
 cask "affine-intel" do
-  version "v0.25.0"
+  version "v0.25.1"
 
-  url "https://github.com/toeverything/AFFiNE/releases/download/v0.25.0/affine-0.25.0-stable-macos-x64.dmg"
+  url "https://github.com/toeverything/AFFiNE/releases/download/v0.25.1/affine-0.25.1-stable-macos-x64.dmg"
   name "AFFiNE-intel"
   desc "Knowledge base that brings planning, sorting and creating all together. Notion and Miro."
   homepage "https://github.com/toeverything/AFFiNE"
-  sha256 "8356cb55c4dea233ee2e2afae80d1fdaa6545858afe589810ddd47ba93f09711"
+  sha256 "5189723ac2b565950e5059a2ad5fd6575ef76cc6596c2f3db3843d3c2426f980"
 
   auto_updates true
 
