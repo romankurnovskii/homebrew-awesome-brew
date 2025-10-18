@@ -5,7 +5,7 @@ cask "keeweb-arm" do
   name "keeweb-arm"
   desc "Free cross-platform password manager compatible with KeePass"
   homepage "https://github.com/keeweb/keeweb"
-  sha256 "6e4870b1660b91e735eaf30e7d751c7bb8dfae623d5b6c47899bd4d5ab1e6cae"
+  sha256 "3590bcb90a75c32ba8b10d692d26838caedbc267a57db23931694abc9598c873"
 
   auto_updates true
 
