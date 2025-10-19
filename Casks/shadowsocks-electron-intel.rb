@@ -5,7 +5,7 @@ cask "shadowsocks-electron-intel" do
   name "shadowsocks-electron-intel"
   desc "Shadowsocks GUI application made for Ubuntu / Mac / Win users and powered by Electron."
   homepage "https://github.com/nojsja/shadowsocks-electron"
-  sha256 "3590bcb90a75c32ba8b10d692d26838caedbc267a57db23931694abc9598c873"
+  sha256 "d75deb7a0f43bc3a82c5981d0fc6bde929814c5d2d573282d274dbbf187067dc"
 
   auto_updates true
 
