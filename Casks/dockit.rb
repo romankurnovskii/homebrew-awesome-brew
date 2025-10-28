@@ -1,11 +1,11 @@
 cask "dockit" do
-  version "v0.0.3"
+  version "v0.0.4"
 
-  url "https://github.com/XiCheng148/Dockit/releases/download/v0.0.3/Dockit.dmg"
+  url "https://github.com/XiCheng148/Dockit/releases/download/v0.0.4/Dockit-Intel.dmg"
   name "Dockit"
   desc "An application that can dock any window to the edge of the screen"
   homepage "https://github.com/XiCheng148/Dockit"
-  sha256 "895b0a0ca94a82b779890b72e8d1a5134c5393c418732e90f7d092a6110a09de"
+  sha256 "0c7fe3edba17dbbe8f543961f06c9c93efd26f31dd2800d7f117de71547e7081"
 
   auto_updates true
 
