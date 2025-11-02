@@ -1,11 +1,11 @@
 cask "encrypt0r-arm" do
-  version "v3.12.59"
+  version "v3.12.60"
 
-  url "https://github.com/kunalnagar/encrypt0r/releases/download/v3.12.59/encrypt0r-mac-m1.zip"
+  url "https://github.com/kunalnagar/encrypt0r/releases/download/v3.12.60/encrypt0r-mac-m1.zip"
   name "encrypt0r-arm"
   desc "encrypt0r App to encrypt and decrypt your files with a passphrase"
   homepage "https://github.com/kunalnagar/encrypt0r"
-  sha256 "0efcd9fd756b35a8db3cdf75f306cf5fae2c936f14b23d37971f087220867bff"
+  sha256 "f4f54cdcd4c68ac63dc1d7dd359f45ccedb22a1deb80be05b00c5f0cab8d0eea"
 
   auto_updates true
 
