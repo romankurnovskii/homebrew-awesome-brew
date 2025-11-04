@@ -1,7 +1,7 @@
 cask "sqlectron-gui" do
   version "v1.38.0"
 
-  url "https://github.com/sqlectron/sqlectron-gui/releases/download/v1.38.0/sqlectron-1.38.0-mac.zip"
+  url "https://github.com/sqlectron/sqlectron/releases/download/v1.38.0/sqlectron-1.38.0-mac.zip"
   name "sqlectron-gui"
   desc "A simple and lightweight SQL client desktop with cross database and platform support."
   homepage "https://github.com/sqlectron/sqlectron-gui"
