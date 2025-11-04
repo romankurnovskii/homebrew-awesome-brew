@@ -616,6 +616,18 @@
         "intel": null,
         "universal": null
       }
+    },
+    {
+      "arch": {
+        "universal": ".dmg"
+      },
+      "description": "Astro - App Store Optimization tool for iOS Developers | tryastro.app",
+      "repo": "https://github.com/matteospada/astro",
+      "sha": {
+        "arm": null,
+        "intel": null,
+        "universal": null
+      }
     }
   ],
   "casks": [
