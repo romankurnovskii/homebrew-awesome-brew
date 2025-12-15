@@ -1,14 +1,7 @@
 cask "hyprnote@nightly" do
   arch arm: "aarch64", intel: "x86_64"
-
-  on_arm do
-    version "0.0.0"
-    sha256 "0000000000000000000000000000000000000000000000000000000000000000"
-  end
-  on_intel do
-    version "0.0.0"
-    sha256 "0000000000000000000000000000000000000000000000000000000000000000"
-  end
+  version :latest
+  sha256 :no_check
 
   url "https://desktop2.hyprnote.com/download/#{version}/dmg-#{arch}?channel=nightly"
   name "Hyprnote Nightly"
