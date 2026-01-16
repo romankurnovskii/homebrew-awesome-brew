@@ -1,11 +1,11 @@
 cask "astro" do
-  version "289"
+  version "291"
 
-  url "https://github.com/matteospada/astro/releases/download/289/Astro.dmg"
+  url "https://github.com/matteospada/astro/releases/download/291/Astro.dmg"
   name "astro"
   desc "Astro - App Store Optimization tool for iOS Developers | tryastro.app"
   homepage "https://github.com/matteospada/astro"
-  sha256 "6a7beaf3c74ca2efe3ffd0d54ced3d3f8ac08b80dc2315e3cd4fc68ebd0a1a1a"
+  sha256 "341e9ad01379518a3c6fa7162bb18857d6ef9c031b00a45cb5d0c85d00399eee"
 
   auto_updates true
 
