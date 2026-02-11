@@ -1,11 +1,11 @@
 cask "picgo-arm" do
-  version "v2.5.0"
+  version "v2.5.2"
 
-  url "https://github.com/Molunerfinn/PicGo/releases/download/v2.5.0/PicGo-2.5.0-arm64.dmg"
+  url "https://github.com/Molunerfinn/PicGo/releases/download/v2.5.2/PicGo-2.5.2-arm64.dmg"
   name "PicGo-arm"
   desc "A simple & beautiful tool for pictures uploading built by vue-cli-electron-builder"
   homepage "https://github.com/Molunerfinn/PicGo"
-  sha256 "c9a1ff414b6cf76cbdb334736e37e15d9102131f1b4ef5610c3b6209d1fb6cd8"
+  sha256 "10f508b759c06f85c996bfa47c6a30d8e4d37d2d6b76b43f9fe43387d31a6c35"
 
   auto_updates true
 
