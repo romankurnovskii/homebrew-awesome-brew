@@ -628,6 +628,18 @@
         "intel": null,
         "universal": null
       }
+    },
+    {
+      "arch": {
+        "universal": "macos-x64.zip"
+      },
+      "description": "A portfolio tracking, analytics, accounting and management application that protects your privacy",
+      "repo": "https://github.com/rotki/rotki",
+      "sha": {
+        "arm": null,
+        "intel": null,
+        "universal": null
+      }
     }
   ],
   "casks": [
