@@ -11,5 +11,5 @@ cask "char@nightly" do
   auto_updates true
   depends_on macos: ">= :sonoma"
 
-  app "Hyprnote Nightly.app"
+  app "Char Nightly.app"
 end
