@@ -4,12 +4,12 @@ cask "hyprnote" do
   sha256 :no_check
 
   url "https://desktop2.hyprnote.com/download/#{version}/dmg-#{arch}?channel=stable"
-  name "Hyprnote"
-  desc "Hyprnote application"
-  homepage "https://github.com/fastrepl/hyprnote"
+  name "Char"
+  desc "Char application"
+  homepage "https://github.com/fastrepl/char"
 
   auto_updates true
   depends_on macos: ">= :sonoma"
 
-  app "Hyprnote.app"
+  app "Char.app"
 end

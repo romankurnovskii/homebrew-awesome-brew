@@ -6,10 +6,10 @@ cask "char" do
   url "https://desktop2.hyprnote.com/download/#{version}/dmg-#{arch}?channel=stable"
   name "Char"
   desc "Char application"
-  homepage "https://github.com/fastrepl/hyprnote"
+  homepage "https://github.com/fastrepl/char"
 
   auto_updates true
   depends_on macos: ">= :sonoma"
 
-  app "Hyprnote.app"
+  app "Char.app"
 end
