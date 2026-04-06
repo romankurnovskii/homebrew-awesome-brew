@@ -66,7 +66,7 @@
     },
     {
       "arch": {
-        "universal": "universal-mac.zip"
+        "universal": "-universal.dmg"
       },
       "description": "Homebrew GUI apps manager",
       "repo": "https://github.com/romankurnovskii/BrewMate",
