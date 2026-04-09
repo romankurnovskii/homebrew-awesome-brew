@@ -640,6 +640,19 @@
         "intel": null,
         "universal": null
       }
+    },
+    {
+      "arch": {
+        "arm": "arm64-mac.zip",
+        "universal": "x64-mac.zip",
+      },
+      "description": "Collaborator is a place to create with agents www.collaborator.bot",
+      "repo": "https://github.com/collaborator-ai/collab-public",
+      "sha": {
+        "arm": null,
+        "intel": null,
+        "universal": null
+      }
     }
   ],
   "casks": [
