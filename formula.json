@@ -11,6 +11,10 @@
     {
       "repo": "https://github.com/sidneys/homebrew-homebrew",
       "description": ""
+    },
+    {
+      "repo": "https://github.com/kubestellar/homebrew-tap",
+      "description": "KubeStellar tools: kc-agent (MCP server for multi-cluster Kubernetes), console, and more"
     }
   ]
 }
