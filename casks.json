@@ -644,7 +644,7 @@
     {
       "arch": {
         "arm": "arm64-mac.zip",
-        "universal": "x64-mac.zip",
+        "universal": "x64-mac.zip"
       },
       "description": "Collaborator is a place to create with agents www.collaborator.bot",
       "repo": "https://github.com/collaborator-ai/collab-public",
@@ -656,7 +656,7 @@
     },
     {
       "arch": {
-        "universal": "aarch64.dmg",
+        "universal": "aarch64.dmg"
       },
       "description": "JustHireMe - Local-first AI job intelligence workbench for scraping roles, ranking fit, and generating tailored application materials.",
       "repo": "https://github.com/vasu-devs/JustHireMe",
