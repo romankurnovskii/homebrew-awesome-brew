@@ -2,7 +2,7 @@ name: Run Python script on merge to master
 
 on:
   schedule:
-    - cron: '0 0 */1 * *'  # update at 00:00 every day
+    - cron: "0 0 */1 * *" # update at 00:00 every day
   push:
     branches:
       - main
@@ -18,7 +18,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
-          python-version: '3.x'
+          python-version: "3.14"
 
       - name: Install dependencies
         run: |
