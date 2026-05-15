@@ -45,6 +45,6 @@ class KubestellarOps < Formula
   end
 
   test do
-    system "#{bin}/kubestellar-ops", "version"
+    system bin/"kubestellar-ops", "version"
   end
 end
