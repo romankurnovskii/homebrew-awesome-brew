@@ -1,8 +1,8 @@
 cask "pass-simple" do
-  version "1.0.27"
-  sha256  "5c192154847d29481eac65e56bd3d8075d535bb268fbe55c7c2dbdafa4f58c64"
+  version "1.1.0"
+  sha256  "65a15fc089100e37501261fd90f97974d699d8783ee0b6584e9d3e2f0f267d17"
 
-  url "https://downloads.sourceforge.net/pass-simple/pass-simple-#{version}.dmg"
+  url "https://downloads.sourceforge.net/pass-simple/pass-simple-#{version}-Darwin.dmg"
   name "Pass simple"
   desc "GUI for pass cli util"
   homepage "https://sourceforge.net/projects/pass-simple/"
