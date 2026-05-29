@@ -1,11 +1,11 @@
 cask "justhireme" do
-  version "v1.0.41"
+  version "v1.0.42"
 
-  url "https://github.com/vasu-devs/JustHireMe/releases/download/v1.0.41/JustHireMe_1.0.41_aarch64.dmg"
+  url "https://github.com/vasu-devs/JustHireMe/releases/download/v1.0.42/JustHireMe_1.0.42_aarch64.dmg"
   name "JustHireMe"
   desc "JustHireMe - Local-first AI job intelligence workbench for scraping roles, ranking fit, and generating tailored application materials."
   homepage "https://github.com/vasu-devs/JustHireMe"
-  sha256 "30db898ecdbcf4e9027b3ab11598c95d90bfa93a89e6067832b19586ed6be6e8"
+  sha256 "8823cc01cf57d081eeb15f2519725d316e518b28570c23e967909c1e219c72f8"
 
   auto_updates true
 
