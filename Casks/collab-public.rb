@@ -1,7 +1,7 @@
 cask "collab-public" do
   version "v0.8.0"
 
-  url "https://github.com/collaborator-ai/collab-public/releases/download/v0.8.0/Collaborator-0.8.0-x64-mac.zip"
+  url "https://github.com/collabs-inc/collab-public/releases/download/v0.8.0/Collaborator-0.8.0-x64-mac.zip"
   name "collab-public"
   desc "Collaborator is a place to create with agents www.collaborator.bot"
   homepage "https://github.com/collaborator-ai/collab-public"
