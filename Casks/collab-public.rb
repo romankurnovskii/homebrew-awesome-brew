@@ -1,11 +1,11 @@
 cask "collab-public" do
-  version "v0.8.0"
+  version "v0.8.1"
 
-  url "https://github.com/collabs-inc/collab-public/releases/download/v0.8.0/Collaborator-0.8.0-x64-mac.zip"
+  url "https://github.com/collabs-inc/collab-public/releases/download/v0.8.1/Collaborator-0.8.1-x64-mac.zip"
   name "collab-public"
   desc "Collaborator is a place to create with agents www.collaborator.bot"
   homepage "https://github.com/collaborator-ai/collab-public"
-  sha256 "783f83c618516530850f18a1097bce8a42e0ad042657ba7e7b8ea72f74f132f5"
+  sha256 "0495f575e82abf7dd038f2e0eeeb8181bb850444534528f7e6d75dd5317197e9"
 
   auto_updates true
 
