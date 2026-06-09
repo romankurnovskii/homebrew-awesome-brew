@@ -7,7 +7,7 @@ cask "pass-simple" do
   desc "GUI for pass cli util"
   homepage "https://sourceforge.net/projects/pass-simple/"
 
-  depends_on macos: ">= :tahoe"
+  depends_on macos: :tahoe
   depends_on formula: "pass"
   depends_on formula: "pinentry-mac"
   depends_on formula: "botan"
