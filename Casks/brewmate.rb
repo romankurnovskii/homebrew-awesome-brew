@@ -1,5 +1,5 @@
 cask "brewmate" do
-  version "1.0.25"
+  version '1.0.25'
 
   url "https://github.com/romankurnovskii/BrewMate/releases/download/1.0.25/BrewMate-1.0.25-universal.dmg"
   name "BrewMate"
