@@ -1,11 +1,11 @@
 cask "rotki" do
-  version "v1.43.1"
+  version "v1.43.2"
 
-  url "https://github.com/rotki/rotki/releases/download/v1.43.1/rotki-core-1.43.1-macos-x64.zip"
+  url "https://github.com/rotki/rotki/releases/download/v1.43.2/rotki-core-1.43.2-macos-x64.zip"
   name "rotki"
   desc "A portfolio tracking, analytics, accounting and management application that protects your privacy"
   homepage "https://github.com/rotki/rotki"
-  sha256 "ea2563d718baa0329668b7cf8b6de160e287c538426475c0cabc72542bb6147f"
+  sha256 "edd313165dfc90ddc02d0b02cb7ac61b41ba573f858b811a60885d67f3c22464"
 
   auto_updates true
 
