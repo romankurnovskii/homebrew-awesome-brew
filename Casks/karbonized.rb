@@ -1,7 +1,7 @@
 cask "karbonized" do
   version "v1.12.0"
 
-  url "https://github.com/yossTheDev/karbonized/releases/download/v1.12.0/karbonized_1.12.0.dmg"
+  url "https://github.com/yossdotpro/karbonized/releases/download/v1.12.0/karbonized_1.12.0.dmg"
   name "karbonized"
   desc "Image Generator for Code Snippets & Screenshots"
   homepage "https://github.com/yossTheDev/karbonized"
