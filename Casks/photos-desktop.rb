@@ -1,7 +1,7 @@
 cask "photos-desktop" do
   version "v1.7.24"
 
-  url "https://github.com/ente-io/photos-desktop/releases/download/v1.7.24/ente-1.7.24-universal.dmg"
+  url "https://github.com/ente/photos-desktop/releases/download/v1.7.24/ente-1.7.24-universal.dmg"
   name "photos-desktop"
   desc "Desktop app for ente Photos"
   homepage "https://github.com/ente-io/photos-desktop"
