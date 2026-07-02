@@ -35,6 +35,12 @@ jobs:
         run: |
           python generate_casks.py
 
+      - name: Run generate_formulas
+        env:
+          AC_TOKEN: ${{ secrets.AC_TOKEN }}
+        run: |
+          python generate_formulas.py
+
       - name: Commit and push if it changed
         run: |
           git config --global user.name 'GitHub Action'
