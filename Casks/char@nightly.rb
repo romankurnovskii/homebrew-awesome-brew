@@ -3,12 +3,12 @@ cask "char@nightly" do
   version :latest
   sha256 :no_check
 
-  url "https://desktop2.hyprnote.com/download/#{version}/dmg-#{arch}?channel=nightly"
+  url "https://desktop2.hyprnote.com/download/#{version}/dmg-#{arch}?channel=nightly",
+      verified: "desktop2.hyprnote.com"
   name "Char Nightly"
   desc "Nightly build of Char application"
   homepage "https://github.com/fastrepl/hyprnote"
 
-  auto_updates true
   depends_on macos: :sonoma
 
   app "Char Nightly.app"
