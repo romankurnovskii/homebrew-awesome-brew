@@ -5,9 +5,24 @@ import subprocess
 from git import Repo, GitCommandError
 
 
+import shutil
+
+protected_files = {
+    "Casks": {"char.rb", "char@nightly.rb", "he3.rb", "hyprnote.rb"},
+    "Formula": set()
+}
+
 for app_type in ["Casks", "Formula"]:
-    subprocess.run(["rm", "-rf", f"./{app_type}"])
-    os.makedirs(app_type)
+    if os.path.exists(app_type):
+        for item in os.listdir(app_type):
+            item_path = os.path.join(app_type, item)
+            if item not in protected_files.get(app_type, set()):
+                if os.path.isdir(item_path):
+                    shutil.rmtree(item_path)
+                else:
+                    os.remove(item_path)
+    else:
+        os.makedirs(app_type)
 
 
 for app_type in ["Casks", "Formula"]:
