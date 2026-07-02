@@ -19,7 +19,7 @@ import os
 import requests
 import json
 import hashlib
-from github import Github
+from github import Github, Auth
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -100,7 +100,10 @@ end
 
 def main():
     token = os.getenv("AC_TOKEN")
-    g = Github(token) if token else Github()
+    if token:
+        g = Github(auth=Auth.Token(token))
+    else:
+        g = Github()
 
     with open("formula.json") as json_file:
         data = json.load(json_file)

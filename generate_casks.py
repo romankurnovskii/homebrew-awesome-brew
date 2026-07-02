@@ -19,7 +19,7 @@ Usage:
 import os
 import requests
 import json
-from github import Github
+from github import Github, Auth
 import hashlib
 from dotenv import load_dotenv
 
@@ -57,7 +57,11 @@ end
         f.write(cask_content)
 
 
-g = Github(os.getenv("AC_TOKEN"))
+token = os.getenv("AC_TOKEN")
+if token:
+    g = Github(auth=Auth.Token(token))
+else:
+    g = Github()
 
 with open("casks.json") as json_file:
     data = json.load(json_file)
