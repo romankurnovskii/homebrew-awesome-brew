@@ -673,10 +673,5 @@
       "repo": "https://github.com/shemeshg/homebrew-tap"
     }
   ],
-  "skip": [
-    "char.rb",
-    "char@nightly.rb",
-    "he3.rb",
-    "hyprnote.rb"
-  ]
+  "skip": ["char.rb", "char@nightly.rb", "he3.rb", "hyprnote.rb"]
 }

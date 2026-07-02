@@ -60,8 +60,6 @@
     "unrar.rb",
     "untrunc.rb",
     "wireproxy.rb",
-    "youtube-dl.rb",
-    "youtubeuploader.rb",
-    "yt-dlp.rb"
+    "youtubeuploader.rb"
   ]
 }
