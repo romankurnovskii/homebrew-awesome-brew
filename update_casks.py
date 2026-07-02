@@ -1,13 +1,35 @@
 import os
 import json
 import subprocess
+import shutil
 
 from git import Repo, GitCommandError
 
-
+# Load skip configurations
+skip_files = {}
 for app_type in ["Casks", "Formula"]:
-    subprocess.run(["rm", "-rf", f"./{app_type}"])
-    os.makedirs(app_type)
+    json_filename = f"{app_type.lower()}.json"
+    lst = []
+    if os.path.exists(json_filename):
+        with open(json_filename, "r", encoding="utf-8") as f:
+            try:
+                lst = json.load(f).get("skip", [])
+            except Exception:
+                pass
+    skip_files[app_type] = set(lst)
+
+# Clean up directories, preserving skipped files
+for app_type in ["Casks", "Formula"]:
+    if os.path.exists(app_type):
+        for item in os.listdir(app_type):
+            item_path = os.path.join(app_type, item)
+            if item not in skip_files.get(app_type, set()):
+                if os.path.isdir(item_path):
+                    shutil.rmtree(item_path)
+                else:
+                    os.remove(item_path)
+    else:
+        os.makedirs(app_type)
 
 
 for app_type in ["Casks", "Formula"]:
@@ -34,6 +56,8 @@ for app_type in ["Casks", "Formula"]:
         for root, dirs, files in os.walk(f"./temp_repo/{subpath}"):
             for file in files:
                 if file.endswith(".rb"):
+                    if file in skip_files.get(app_type, set()):
+                        continue
                     dest_path = os.path.join(f"./{app_type}", file)
                     count = 1
 

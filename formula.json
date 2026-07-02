@@ -9,8 +9,8 @@
       "description": "Zsh Theme"
     },
     {
-      "repo": "https://github.com/sidneys/homebrew-homebrew",
-      "description": ""
+      "repo": "https://github.com/minacle/homebrew-chntpw",
+      "description": "Fixed chntpw using openssl@3"
     },
     {
       "repo": "https://github.com/kubestellar/homebrew-tap",
@@ -28,5 +28,38 @@
         "intel": "a7cfd087b957aacfba27805a5f0cde49a5fee1d3eea0c0dc8df02d062cf4d82d"
       }
     }
+  ],
+  "skip": [
+    "binutils.rb",
+    "cdrkit.rb",
+    "chntpw@1.0.1.rb",
+    "ffmpeg-iina.rb",
+    "ffmpeg.rb",
+    "imagemagick.rb",
+    "jack.rb",
+    "keyring.rb",
+    "libalac.rb",
+    "lua@5.2.rb",
+    "megatools-experimental.rb",
+    "mkvtoolnix.rb",
+    "mpv-iina.rb",
+    "mpv.rb",
+    "mupen64plus.rb",
+    "onetun.rb",
+    "openssl@1.0.rb",
+    "optool.rb",
+    "pulseaudio.rb",
+    "pyqt.rb",
+    "qjackctldbus.rb",
+    "rlottie.rb",
+    "shairport-sync.rb",
+    "sip.rb",
+    "test-formula.rb",
+    "tgs2png.rb",
+    "tmpmail.rb",
+    "unrar.rb",
+    "untrunc.rb",
+    "wireproxy.rb",
+    "youtubeuploader.rb"
   ]
 }
