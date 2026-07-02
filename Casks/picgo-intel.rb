@@ -1,11 +1,11 @@
 cask "picgo-intel" do
-  version "v2.5.3"
+  version "v3.0.0"
 
-  url "https://github.com/Molunerfinn/PicGo/releases/download/v2.5.3/PicGo-2.5.3-x64.dmg"
+  url "https://github.com/Molunerfinn/PicGo/releases/download/v3.0.0/PicGo-3.0.0-x64.dmg"
   name "PicGo-intel"
   desc "A simple & beautiful tool for pictures uploading built by vue-cli-electron-builder"
   homepage "https://github.com/Molunerfinn/PicGo"
-  sha256 "f6566f2b8bca50767879a8391adafc000edb54c1fb24d696a0bf8e37a9b2a790"
+  sha256 "e173ed0233735f9c95a3dbb33afd88bb522675bffecf4dba351d3bf0a2aed396"
 
   auto_updates true
 
