@@ -56,6 +56,8 @@ for app_type in ["Casks", "Formula"]:
         for root, dirs, files in os.walk(f"./temp_repo/{subpath}"):
             for file in files:
                 if file.endswith(".rb"):
+                    if file in protected_files.get(app_type, set()):
+                        continue
                     dest_path = os.path.join(f"./{app_type}", file)
                     count = 1
 
