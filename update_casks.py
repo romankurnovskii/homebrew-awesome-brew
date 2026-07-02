@@ -7,10 +7,17 @@ from git import Repo, GitCommandError
 
 import shutil
 
-protected_files = {
-    "Casks": {"char.rb", "char@nightly.rb", "he3.rb", "hyprnote.rb"},
-    "Formula": set()
-}
+protected_files = {}
+for app_type in ["Casks", "Formula"]:
+    json_filename = f"{app_type.lower()}.json"
+    keep_list = []
+    if os.path.exists(json_filename):
+        with open(json_filename, "r", encoding="utf-8") as f:
+            try:
+                keep_list = json.load(f).get("keep", [])
+            except Exception:
+                pass
+    protected_files[app_type] = set(keep_list)
 
 for app_type in ["Casks", "Formula"]:
     if os.path.exists(app_type):
