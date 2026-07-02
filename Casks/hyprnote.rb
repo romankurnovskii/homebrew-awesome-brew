@@ -9,7 +9,7 @@ cask "hyprnote" do
   homepage "https://github.com/fastrepl/char"
 
   auto_updates true
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Char.app"
 end

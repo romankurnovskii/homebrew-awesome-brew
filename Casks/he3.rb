@@ -16,7 +16,7 @@ cask "he3" do
   desc "A Free, Modern Toolbox Built for Developers."
   homepage "https://he3app.com"
 
-  depends_on macos: ">= :catalina"
+  depends_on macos: :catalina
 
   app "He3.app"
 
