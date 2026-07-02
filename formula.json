@@ -15,6 +15,18 @@
     {
       "repo": "https://github.com/kubestellar/homebrew-tap",
       "description": "KubeStellar tools: kc-agent (MCP server for multi-cluster Kubernetes), console, and more"
+    },
+    {
+      "repo": "https://github.com/solana-foundation/surfpool",
+      "description": "Solana Foundation's surfpool - a tool for Solana network participation",
+      "arch": {
+        "arm": "darwin-arm64.tar.gz",
+        "intel": "darwin-x64.tar.gz"
+      },
+      "sha": {
+        "arm": "6daaf49b6afd6ebe700840708090c20301eb43b9e6b8c86fe87745663b6e4145",
+        "intel": "a7cfd087b957aacfba27805a5f0cde49a5fee1d3eea0c0dc8df02d062cf4d82d"
+      }
     }
   ]
 }
