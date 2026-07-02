@@ -29,5 +29,7 @@
       }
     }
   ],
-  "keep": []
+  "keep": [
+    "chntpw.rb"
+  ]
 }
