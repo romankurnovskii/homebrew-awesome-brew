@@ -671,7 +671,11 @@
     {
       "description": "",
       "repo": "https://github.com/shemeshg/homebrew-tap"
-    }
+    },
+    {
+      "description": "Run any coding agent with your own subscription. Available on desktop and mobile",
+      "repo": "https://github.com/stablyai/orca"
+    },
   ],
   "skip": [
     "amule.rb",
