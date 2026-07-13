@@ -40,7 +40,7 @@
       }
     },
     {
-      "description": "Lapki IDE - Графическая IDE для киберфизических систем",
+      "description": "Lapki IDE - \u0413\u0440\u0430\u0444\u0438\u0447\u0435\u0441\u043a\u0430\u044f IDE \u0434\u043b\u044f \u043a\u0438\u0431\u0435\u0440\u0444\u0438\u0437\u0438\u0447\u0435\u0441\u043a\u0438\u0445 \u0441\u0438\u0441\u0442\u0435\u043c",
       "repo": "https://github.com/kruzhok-team/lapki-client",
       "arch": {
         "universal": ".dmg"
@@ -58,18 +58,6 @@
         "arm": "mac-arm64.dmg",
         "intel": "mac-x64.dmg"
       },
-      "sha": {
-        "arm": null,
-        "intel": null,
-        "universal": null
-      }
-    },
-    {
-      "arch": {
-        "universal": "-universal.dmg"
-      },
-      "description": "Homebrew GUI apps manager",
-      "repo": "https://github.com/romankurnovskii/BrewMate",
       "sha": {
         "arm": null,
         "intel": null,
@@ -326,7 +314,7 @@
       }
     },
     {
-      "description": "The IDE for competitive programming 🎉 | Fetch, Code, Compile, Run, Check, Submit 🚀.",
+      "description": "The IDE for competitive programming \ud83c\udf89 | Fetch, Code, Compile, Run, Check, Submit \ud83d\ude80.",
       "repo": "https://github.com/cpeditor/cpeditor",
       "sha": {
         "arm": null,
@@ -675,6 +663,10 @@
     {
       "description": "Run any coding agent with your own subscription. Available on desktop and mobile",
       "repo": "https://github.com/stablyai/orca"
+    },
+    {
+      "description": "Homebrew GUI apps manager",
+      "repo": "https://github.com/romankurnovskii/BrewMate"
     }
   ],
   "skip": [
