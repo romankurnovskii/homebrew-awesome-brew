@@ -24,8 +24,10 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
+
 def camelcase(s):
     return "".join(word.capitalize() for word in s.replace("-", "_").split("_"))
+
 
 def get_existing_version(file_path):
     if not os.path.exists(file_path):
@@ -43,9 +45,12 @@ def get_existing_version(file_path):
                     return parts[1]
     return None
 
-def create_formula_file(app_name, repo_name, repo_description, version, urls, shas, binary_name):
+
+def create_formula_file(
+    app_name, repo_name, repo_description, version, urls, shas, binary_name
+):
     class_name = camelcase(app_name)
-    
+
     # If both ARM and Intel URLs are present, generate a multi-architecture formula
     if "arm" in urls and "intel" in urls:
         formula_content = f"""class {class_name} < Formula
@@ -98,6 +103,7 @@ end
         f.write(formula_content)
     print(f"Generated Formula: {filename}")
 
+
 def main():
     token = os.getenv("AC_TOKEN")
     if token:
@@ -123,7 +129,7 @@ def main():
         formula_path = os.path.join("Formula", f"{app_name.lower()}.rb")
 
         print(f"Processing formula for repo: {repo_name} ...")
-        
+
         try:
             repo = g.get_repo(repo_name)
             latest_release = repo.get_latest_release()
@@ -145,7 +151,7 @@ def main():
             for arch, pattern in cask_arch.items():
                 if pattern and asset.name.endswith(pattern):
                     urls[arch] = asset.browser_download_url
-                    
+
                     # If this tag/version matches the hardcoded one in json, use precomputed SHA to save download
                     if precalc_sha.get(arch) and entry.get("version") == version:
                         shas[arch] = precalc_sha[arch]
@@ -157,13 +163,18 @@ def main():
                             shas[arch] = hashlib.sha256(response.content).hexdigest()
                             print(f"Computed SHA256 for {arch}: {shas[arch]}")
                         except Exception as e:
-                            print(f"Failed to download/compute SHA for {asset.name}: {e}")
+                            print(
+                                f"Failed to download/compute SHA for {asset.name}: {e}"
+                            )
 
         # Ensure we found at least one asset/arch URL
         if urls:
-            create_formula_file(app_name, repo_name, repo_description, version, urls, shas, binary_name)
+            create_formula_file(
+                app_name, repo_name, repo_description, version, urls, shas, binary_name
+            )
         else:
             print(f"No matching assets found for {app_name} version {version}")
+
 
 if __name__ == "__main__":
     main()

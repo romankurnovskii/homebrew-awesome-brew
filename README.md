@@ -28,6 +28,6 @@ brew install romankurnovskii/awesome-brew/brewmate --cask --no-quarantine
 
 If you would like to contribute to this project, you can do so by updating the `casks.json` or `formula.json` files.
 
-
 ---
-*picture by Amir Ali*
+
+_picture by Amir Ali_
