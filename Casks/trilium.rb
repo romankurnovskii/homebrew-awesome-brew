@@ -1,11 +1,11 @@
 cask "trilium" do
-  version "v0.103.0"
+  version "v0.104.0"
 
-  url "https://github.com/TriliumNext/Trilium/releases/download/v0.103.0/TriliumNotes-v0.103.0-macos-arm64.zip"
+  url "https://github.com/TriliumNext/Trilium/releases/download/v0.104.0/TriliumNotes-v0.104.0-macos-arm64.zip"
   name "trilium"
   desc "Build your personal knowledge base with Trilium Notes"
   homepage "https://github.com/zadam/trilium"
-  sha256 "74c9602600eec591f58e7bcb6a59a00d431509d590f00be21adf3a69e31b1956"
+  sha256 "cd557b949865fc33437ef6f208275349e0ef872cd02c5f29c5f9ebd9060a79ab"
 
   auto_updates true
 
