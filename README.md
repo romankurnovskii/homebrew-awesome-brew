@@ -21,7 +21,7 @@ brew update
 or using [GUI BrewMate](https://github.com/romankurnovskii/BrewMate)
 
 ```sh
-brew install romankurnovskii/awesome-brew/brewmate --cask --no-quarantine
+brew install romankurnovskii/awesome-brew/brewmate --cask
 ```
 
 # How to Contribute
