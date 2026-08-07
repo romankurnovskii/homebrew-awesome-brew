@@ -13,9 +13,19 @@ Instead of having to add each tap one by one, you can simply use this catalog to
 
 # Usage
 
+Homebrew 6.0+ requires third-party taps to be explicitly trusted before their casks and formulae can be loaded. Trust the whole tap:
+
 ```sh
 brew tap romankurnovskii/awesome-brew
+brew trust romankurnovskii/awesome-brew
 brew update
+```
+
+Alternatively, trust only the specific cask or formula you need:
+
+```sh
+brew trust --cask romankurnovskii/awesome-brew/<cask-name>
+brew trust --formula romankurnovskii/awesome-brew/<formula-name>
 ```
 
 or using [GUI BrewMate](https://github.com/romankurnovskii/BrewMate)
