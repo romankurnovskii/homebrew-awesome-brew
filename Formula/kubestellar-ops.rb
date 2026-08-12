@@ -5,21 +5,21 @@
 class KubestellarOps < Formula
   desc "Multi-cluster Kubernetes diagnostics, RBAC analysis, and security checks"
   homepage "https://github.com/kubestellar/kubestellar-mcp"
-  version "0.9.9-nightly.20260809"
+  version "0.9.10-nightly.20260811"
   license "Apache-2.0"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/kubestellar/kubestellar-mcp/releases/download/v0.9.9-nightly.20260809/kubestellar-ops_0.9.9-nightly.20260809_darwin_amd64.tar.gz"
-      sha256 "1c451a3010ee62a17d725cf0b664aa1ad320075fbd591eba38444194268d9ddf"
+      url "https://github.com/kubestellar/kubestellar-mcp/releases/download/v0.9.10-nightly.20260811/kubestellar-ops_0.9.10-nightly.20260811_darwin_amd64.tar.gz"
+      sha256 "27ba8b2564edd9d66633c6757626268b3c4c3c616b4274f0016598b6d077fca8"
 
       define_method(:install) do
         bin.install "kubestellar-ops"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/kubestellar/kubestellar-mcp/releases/download/v0.9.9-nightly.20260809/kubestellar-ops_0.9.9-nightly.20260809_darwin_arm64.tar.gz"
-      sha256 "37701f9f503579fe8b61cedbed9130ed68c1a27d5e80a2a77eee884cbfd1c7de"
+      url "https://github.com/kubestellar/kubestellar-mcp/releases/download/v0.9.10-nightly.20260811/kubestellar-ops_0.9.10-nightly.20260811_darwin_arm64.tar.gz"
+      sha256 "3a3f8979c1ef3bbeeeb5a4aa099bff31a06e0d0c1ceb07b9b7f0bd00d8478260"
 
       define_method(:install) do
         bin.install "kubestellar-ops"
@@ -29,15 +29,15 @@ class KubestellarOps < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/kubestellar/kubestellar-mcp/releases/download/v0.9.9-nightly.20260809/kubestellar-ops_0.9.9-nightly.20260809_linux_amd64.tar.gz"
-      sha256 "dd02078e22ae6d212d13227e0fb96c734e76b255ae79e3da06749da904d08040"
+      url "https://github.com/kubestellar/kubestellar-mcp/releases/download/v0.9.10-nightly.20260811/kubestellar-ops_0.9.10-nightly.20260811_linux_amd64.tar.gz"
+      sha256 "cd87d094d5d7555a73e9b9ee452f417b8cfe013bf726ff5d8966a39b00aa69c3"
       define_method(:install) do
         bin.install "kubestellar-ops"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/kubestellar/kubestellar-mcp/releases/download/v0.9.9-nightly.20260809/kubestellar-ops_0.9.9-nightly.20260809_linux_arm64.tar.gz"
-      sha256 "a61df53db739a98d294bb5755a1e25dae59c33963ce51d416d171e563b9d1af4"
+      url "https://github.com/kubestellar/kubestellar-mcp/releases/download/v0.9.10-nightly.20260811/kubestellar-ops_0.9.10-nightly.20260811_linux_arm64.tar.gz"
+      sha256 "be47dbe3b116d5373ebae1b8fb98dc0a5d3f467133aca07789da230065a5543b"
       define_method(:install) do
         bin.install "kubestellar-ops"
       end
