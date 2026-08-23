@@ -679,6 +679,10 @@
     {
       "description": "Homebrew GUI apps manager",
       "repo": "https://github.com/romankurnovskii/BrewMate"
+    },
+    {
+      "description": "Native Homebrew GUI for macOS",
+      "repo": "https://github.com/DaKiLloTh/homebrew-mead"
     }
   ],
   "skip": [
