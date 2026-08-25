@@ -665,6 +665,18 @@
         "intel": null,
         "universal": null
       }
+    },
+    {
+      "description": "Run parallel research agents with any model",
+      "repo": "https://github.com/alphaXiv/openresearch-cli",
+      "arch": {
+        "universal": ".dmg"
+      },
+      "sha": {
+        "arm": null,
+        "intel": null,
+        "universal": null
+      }
     }
   ],
   "casks": [
