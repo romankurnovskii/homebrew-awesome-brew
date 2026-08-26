@@ -5,21 +5,21 @@
 class KubestellarDeploy < Formula
   desc "App-centric multi-cluster deployment and operations for Kubernetes"
   homepage "https://github.com/kubestellar/kubestellar-mcp"
-  version "0.9.12-nightly.20260825"
+  version "0.9.12-nightly.20260826"
   license "Apache-2.0"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/kubestellar/kubestellar-mcp/releases/download/v0.9.12-nightly.20260825/kubestellar-deploy_0.9.12-nightly.20260825_darwin_amd64.tar.gz"
-      sha256 "96941812806bbdca4119a420d6f736a1748135568f6a50c7e21a56a61ca10056"
+      url "https://github.com/kubestellar/kubestellar-mcp/releases/download/v0.9.12-nightly.20260826/kubestellar-deploy_0.9.12-nightly.20260826_darwin_amd64.tar.gz"
+      sha256 "908c3193b82df275ac899671de8282037ab107ea039d720d135c33a00b3d6144"
 
       define_method(:install) do
         bin.install "kubestellar-deploy"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/kubestellar/kubestellar-mcp/releases/download/v0.9.12-nightly.20260825/kubestellar-deploy_0.9.12-nightly.20260825_darwin_arm64.tar.gz"
-      sha256 "c8acf6120808d94557a791c854a803f136df3f7e2974018f4c7c99d0d2c51f5a"
+      url "https://github.com/kubestellar/kubestellar-mcp/releases/download/v0.9.12-nightly.20260826/kubestellar-deploy_0.9.12-nightly.20260826_darwin_arm64.tar.gz"
+      sha256 "15ab9fd8512ae8d48a51a88fcd79bd087fc02179e26d60cd99770c40ee1f6441"
 
       define_method(:install) do
         bin.install "kubestellar-deploy"
@@ -29,15 +29,15 @@ class KubestellarDeploy < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/kubestellar/kubestellar-mcp/releases/download/v0.9.12-nightly.20260825/kubestellar-deploy_0.9.12-nightly.20260825_linux_amd64.tar.gz"
-      sha256 "5f624120f36896f24c76a2c165becedb4714927122a39be37e6bf0c3528fc3f1"
+      url "https://github.com/kubestellar/kubestellar-mcp/releases/download/v0.9.12-nightly.20260826/kubestellar-deploy_0.9.12-nightly.20260826_linux_amd64.tar.gz"
+      sha256 "6b2d4cb7c5b3c0ab952b0f8f0c57fc72f1dc69721a075a5920369e85b32afdf7"
       define_method(:install) do
         bin.install "kubestellar-deploy"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/kubestellar/kubestellar-mcp/releases/download/v0.9.12-nightly.20260825/kubestellar-deploy_0.9.12-nightly.20260825_linux_arm64.tar.gz"
-      sha256 "5cd166ad7e7f0312df04129f1a1f2af166abe2c7a4695459ad7f35170d4736e1"
+      url "https://github.com/kubestellar/kubestellar-mcp/releases/download/v0.9.12-nightly.20260826/kubestellar-deploy_0.9.12-nightly.20260826_linux_arm64.tar.gz"
+      sha256 "a8ddd302c5e1dd309a1af62ea098f7d84a9ff1ff2c1c79c4a9b61d7615f32277"
       define_method(:install) do
         bin.install "kubestellar-deploy"
       end
