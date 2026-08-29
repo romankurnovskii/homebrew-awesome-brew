@@ -26,6 +26,19 @@ from dotenv import load_dotenv
 load_dotenv()
 
 
+def cask_name(cask, arch):
+    """Return the cask name for a repo config.
+
+    Uses the explicit ``name`` key verbatim when present (no arch suffix),
+    otherwise derives the name from the last repo path segment and appends
+    the architecture suffix for non-universal builds.
+    """
+    app_name = cask.get("name") or cask["repo"].replace("https://github.com/", "").split("/")[-1]
+    if cask.get("name") or arch == "universal":
+        return app_name
+    return f"{app_name}-{arch}"
+
+
 def create_cask_file(cask_name, repo_name, repo_description, version, url, sha):
     cask_content = f"""cask "{cask_name.lower()}" do
   version "{version}"
@@ -56,102 +69,106 @@ end
         f.write(cask_content)
 
 
-token = os.getenv("AC_TOKEN")
-if token:
-    g = Github(auth=Auth.Token(token))
-else:
-    g = Github()
+def main():
+    token = os.getenv("AC_TOKEN")
+    if token:
+        g = Github(auth=Auth.Token(token))
+    else:
+        g = Github()
 
-with open("casks.json") as json_file:
-    data = json.load(json_file)
+    with open("casks.json") as json_file:
+        data = json.load(json_file)
 
-os.makedirs("Casks", exist_ok=True)
+    os.makedirs("Casks", exist_ok=True)
 
-for cask in data["releaseOnly"]:
-    repo_name = cask["repo"].replace("https://github.com/", "")
-    repo_description = cask["description"]
-    cask_arch = cask.get("arch")
+    for cask in data["releaseOnly"]:
+        repo_name = cask["repo"].replace("https://github.com/", "")
+        repo_description = cask["description"]
+        cask_arch = cask.get("arch")
 
-    # for repo_name, repo_description in repos:
-    print(f"Trying repo: {repo_name} ...")
-    repo = g.get_repo(repo_name)
-    latest_release = repo.get_latest_release()
-    version = latest_release.tag_name
-    app_name = repo_name.split("/")[-1]
+        # for repo_name, repo_description in repos:
+        print(f"Trying repo: {repo_name} ...")
+        repo = g.get_repo(repo_name)
+        latest_release = repo.get_latest_release()
+        version = latest_release.tag_name
 
-    asset_url_universal = ""
-    asset_url_arm = ""
-    asset_url_intel = ""
+        asset_url_universal = ""
+        asset_url_arm = ""
+        asset_url_intel = ""
 
-    sha256_universal = ""
-    sha256_arm = ""
-    sha256_intel = ""
+        sha256_universal = ""
+        sha256_arm = ""
+        sha256_intel = ""
 
-    assets = latest_release.get_assets()
-    print("Analyzing assets...")
-    for asset in assets:
-        if any(["linux" in asset.name, "win32" in asset.name, "win64" in asset.name]):
-            print(f"Skipping {asset.name}")
-            continue
+        assets = latest_release.get_assets()
+        print("Analyzing assets...")
+        for asset in assets:
+            if any(["linux" in asset.name, "win32" in asset.name, "win64" in asset.name]):
+                print(f"Skipping {asset.name}")
+                continue
 
-        if cask_arch:
-            for arch, pattern in cask_arch.items():
-                if pattern and asset.name.endswith(pattern):
-                    if arch == "arm":
-                        asset_url_arm = asset.browser_download_url
-                        response = requests.get(asset_url_arm)
-                        sha256_arm = hashlib.sha256(response.content).hexdigest()
-                    elif arch == "intel":
-                        asset_url_intel = asset.browser_download_url
-                        response = requests.get(asset_url_intel)
-                        sha256_intel = hashlib.sha256(response.content).hexdigest()
-                    elif arch == "universal":
+            if cask_arch:
+                for arch, pattern in cask_arch.items():
+                    if pattern and asset.name.endswith(pattern):
+                        if arch == "arm":
+                            asset_url_arm = asset.browser_download_url
+                            response = requests.get(asset_url_arm)
+                            sha256_arm = hashlib.sha256(response.content).hexdigest()
+                        elif arch == "intel":
+                            asset_url_intel = asset.browser_download_url
+                            response = requests.get(asset_url_intel)
+                            sha256_intel = hashlib.sha256(response.content).hexdigest()
+                        elif arch == "universal":
+                            asset_url_universal = asset.browser_download_url
+                            response = requests.get(asset_url_universal)
+                            sha256_universal = hashlib.sha256(response.content).hexdigest()
+                continue
+
+            if any([asset.name.endswith("dmg"), asset.name.endswith("zip")]):
+                if "arm64" in asset.name and not sha256_arm:
+                    asset_url_arm = asset.browser_download_url
+                    response = requests.get(asset_url_arm)
+                    sha256_arm = hashlib.sha256(response.content).hexdigest()
+                elif "intel" in asset.name and not sha256_intel:
+                    asset_url_intel = asset.browser_download_url
+                    response = requests.get(asset_url_intel)
+                    sha256_intel = hashlib.sha256(response.content).hexdigest()
+                else:
+                    patterns = ["universal", "mac", "darwin"]
+                    if any([p in asset.name for p in patterns]) and not sha256_universal:
                         asset_url_universal = asset.browser_download_url
                         response = requests.get(asset_url_universal)
                         sha256_universal = hashlib.sha256(response.content).hexdigest()
-            continue
 
-        if any([asset.name.endswith("dmg"), asset.name.endswith("zip")]):
-            if "arm64" in asset.name and not sha256_arm:
-                asset_url_arm = asset.browser_download_url
-                response = requests.get(asset_url_arm)
-                sha256_arm = hashlib.sha256(response.content).hexdigest()
-            elif "intel" in asset.name and not sha256_intel:
-                asset_url_intel = asset.browser_download_url
-                response = requests.get(asset_url_intel)
-                sha256_intel = hashlib.sha256(response.content).hexdigest()
-            else:
-                patterns = ["universal", "mac", "darwin"]
-                if any([p in asset.name for p in patterns]) and not sha256_universal:
-                    asset_url_universal = asset.browser_download_url
-                    response = requests.get(asset_url_universal)
-                    sha256_universal = hashlib.sha256(response.content).hexdigest()
-
-    if asset_url_universal:
-        create_cask_file(
-            app_name,
-            repo_name,
-            repo_description,
-            version,
-            asset_url_universal,
-            sha256_universal,
-        )
-    else:
-        if asset_url_arm:
+        if asset_url_universal:
             create_cask_file(
-                app_name + "-arm",
+                cask_name(cask, "universal"),
                 repo_name,
                 repo_description,
                 version,
-                asset_url_arm,
-                sha256_arm,
+                asset_url_universal,
+                sha256_universal,
             )
-        if asset_url_intel:
-            create_cask_file(
-                app_name + "-intel",
-                repo_name,
-                repo_description,
-                version,
-                asset_url_intel,
-                sha256_intel,
-            )
+        else:
+            if asset_url_arm:
+                create_cask_file(
+                    cask_name(cask, "arm"),
+                    repo_name,
+                    repo_description,
+                    version,
+                    asset_url_arm,
+                    sha256_arm,
+                )
+            if asset_url_intel:
+                create_cask_file(
+                    cask_name(cask, "intel"),
+                    repo_name,
+                    repo_description,
+                    version,
+                    asset_url_intel,
+                    sha256_intel,
+                )
+
+
+if __name__ == "__main__":
+    main()

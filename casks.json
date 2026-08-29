@@ -680,6 +680,7 @@
     },
     {
       "description": "Turn your agent into a professional video editor",
+      "name": "diffusionstudio-editor",
       "repo": "https://github.com/diffusionstudio/editor",
       "arch": {
         "arm": "arm64.dmg"
