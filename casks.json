@@ -677,6 +677,18 @@
         "intel": null,
         "universal": null
       }
+    },
+    {
+      "description": "Turn your agent into a professional video editor",
+      "repo": "https://github.com/diffusionstudio/editor",
+      "arch": {
+        "arm": "arm64.dmg"
+      },
+      "sha": {
+        "arm": null,
+        "intel": null,
+        "universal": null
+      }
     }
   ],
   "casks": [
