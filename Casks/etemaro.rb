@@ -1,11 +1,11 @@
 cask "etemaro" do
-  version "v3.4.4"
+  version "v3.4.5"
 
-  url "https://github.com/romankurnovskii/etemaro/releases/download/v3.4.4/Etemaro_0.2.0_universal.dmg"
+  url "https://github.com/romankurnovskii/etemaro/releases/download/v3.4.5/Etemaro_0.2.0_universal.dmg"
   name "etemaro"
   desc "LLM-powered agent that autonomously manages liquidity positions on Meteora DLMM for Solana"
   homepage "https://github.com/romankurnovskii/etemaro"
-  sha256 "74407cadfbe50594d08e1651b6431b4bbbbe50d4d45a9b3b58f414cfdb0d3bd9"
+  sha256 "3c409244b6d1d54d70ff60a489993817420ac21fbb2a61c5cdd26daa3d140b94"
 
   auto_updates true
 
