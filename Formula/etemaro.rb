@@ -1,9 +1,9 @@
 class Etemaro < Formula
   desc "Autonomous DLMM LP agent for Meteora on Solana"
   homepage "https://github.com/romankurnovskii/etemaro"
-  version "3.6.0"
-  url "https://registry.npmjs.org/@etemaro/cli/-/cli-3.6.0.tgz"
-  sha256 "1e4de468a2cb1b0df52d5ca4dc75ef9756544232b95c543b93a06af7e9507ecd"
+  version "3.6.1"
+  url "https://registry.npmjs.org/@etemaro/cli/-/cli-3.6.1.tgz"
+  sha256 "cd42ca7eee75ce05b8614cfa96c72e652e9f497a6d8e4195dd21d4bdb6ab14fd"
   
   depends_on "node"
 
