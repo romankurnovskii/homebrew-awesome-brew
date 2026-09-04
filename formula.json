@@ -27,6 +27,10 @@
         "arm": "6daaf49b6afd6ebe700840708090c20301eb43b9e6b8c86fe87745663b6e4145",
         "intel": "a7cfd087b957aacfba27805a5f0cde49a5fee1d3eea0c0dc8df02d062cf4d82d"
       }
+    },
+    {
+      "repo": "https://github.com/romankurnovskii/etemaro",
+      "description": "LLM-powered agent that autonomously manages liquidity positions on Meteora DLMM for Solana"
     }
   ],
   "skip": [
