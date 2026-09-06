@@ -1,7 +1,7 @@
 cask "alphabiz" do
-  version "0.3.3"
+  version "0.4.0-beta.1"
 
-  url "https://github.com/tanshuai/alphabiz/releases/download/0.3.3/alphabiz-x64-0.3.3.dmg"
+  url "https://github.com/tanshuai/alphabiz/releases/download/0.4.0-beta.1/alphabiz-x64-0.4.0.dmg"
   name "alphabiz"
   desc "Web3 ecosystem - enable developers to build fully decentralized media platform and blockchain-based marketplace"
   homepage "https://github.com/tanshuai/alphabiz"
