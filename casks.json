@@ -690,6 +690,21 @@
         "intel": null,
         "universal": null
       }
+    },
+    {
+      "app_name": "Posnic",
+      "description": "Open source, offline-first POS and billing software for retail and restaurant workflows",
+      "homepage": "https://www.posnic.com/",
+      "repo": "https://github.com/Posnic/POS",
+      "arch": {
+        "arm": "macos-arm64.dmg",
+        "intel": "macos-x64.dmg"
+      },
+      "sha": {
+        "arm": null,
+        "intel": null,
+        "universal": null
+      }
     }
   ],
   "casks": [
