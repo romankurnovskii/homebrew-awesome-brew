@@ -39,19 +39,22 @@ def cask_name(cask, arch):
     return f"{app_name}-{arch}"
 
 
-def create_cask_file(cask_name, repo_name, repo_description, version, url, sha):
+def create_cask_file(
+    cask_name, app_name, repo_name, repo_description, version, url, sha, homepage=None
+):
+    homepage = homepage or f"https://github.com/{repo_name}"
     cask_content = f"""cask "{cask_name.lower()}" do
   version "{version}"
 
   url "{url}"
   name "{cask_name}"
   desc "{repo_description}"
-  homepage "https://github.com/{repo_name}"
+  homepage "{homepage}"
   sha256 "{sha}"
 
   auto_updates true
 
-  app "{cask_name}.app"
+  app "{app_name}.app"
 
   zap trash: [
     "~/Library/Application Support/{cask_name.lower()}",
@@ -143,30 +146,36 @@ def main():
         if asset_url_universal:
             create_cask_file(
                 cask_name(cask, "universal"),
+                cask.get("app_name") or cask_name(cask, "universal"),
                 repo_name,
                 repo_description,
                 version,
                 asset_url_universal,
                 sha256_universal,
+                cask.get("homepage"),
             )
         else:
             if asset_url_arm:
                 create_cask_file(
                     cask_name(cask, "arm"),
+                    cask.get("app_name") or cask_name(cask, "arm"),
                     repo_name,
                     repo_description,
                     version,
                     asset_url_arm,
                     sha256_arm,
+                    cask.get("homepage"),
                 )
             if asset_url_intel:
                 create_cask_file(
                     cask_name(cask, "intel"),
+                    cask.get("app_name") or cask_name(cask, "intel"),
                     repo_name,
                     repo_description,
                     version,
                     asset_url_intel,
                     sha256_intel,
+                    cask.get("homepage"),
                 )
 
 
