@@ -1,11 +1,11 @@
 cask "diffusionstudio-editor" do
-  version "v0.207.0"
+  version "v0.208.0"
 
-  url "https://github.com/diffusionstudio/editor/releases/download/v0.207.0/Diffusion-Studio-arm64.dmg"
+  url "https://github.com/diffusionstudio/editor/releases/download/v0.208.0/Diffusion-Studio-arm64.dmg"
   name "diffusionstudio-editor"
   desc "Turn your agent into a professional video editor"
   homepage "https://github.com/diffusionstudio/editor"
-  sha256 "5dad9e9bbe7e767115c1c014311d7322c55d924c6c2cf816a4bc054eec9c4280"
+  sha256 "dbf5cfdd05370459b702e82401cb78f3b2819a322810217def286c7d529d745d"
 
   auto_updates true
 

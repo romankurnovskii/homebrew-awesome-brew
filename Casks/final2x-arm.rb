@@ -1,11 +1,11 @@
 cask "final2x-arm" do
-  version "v4.0.0"
+  version "v4.1.0"
 
-  url "https://github.com/EutropicAI/Final2x/releases/download/v4.0.0/Final2x-macos-arm64-dmg.dmg"
+  url "https://github.com/EutropicAI/Final2x/releases/download/v4.1.0/Final2x-macos-arm64-dmg.dmg"
   name "Final2x-arm"
   desc "2^x Image Super-Resolution"
   homepage "https://github.com/Tohrusky/Final2x"
-  sha256 "6d2a03de4a0e6e4683a4aa6d4f977cc10807c4f796c1e4a45d21a5184b8740f5"
+  sha256 "f9af9697064c0e65fb541b5fb1defebe5c2d1622df458d5abfbca098c3d755a7"
 
   auto_updates true
 

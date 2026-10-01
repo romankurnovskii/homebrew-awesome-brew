@@ -1,11 +1,11 @@
 cask "karbonized" do
-  version "v2.1.0"
+  version "v2.2.0"
 
-  url "https://github.com/yossdotpro/karbonized/releases/download/v2.1.0/karbonized_2.1.0.dmg"
+  url "https://github.com/yossdotpro/karbonized/releases/download/v2.2.0/karbonized_2.2.0.dmg"
   name "karbonized"
   desc "Image Generator for Code Snippets & Screenshots"
   homepage "https://github.com/yossTheDev/karbonized"
-  sha256 "941679e1d9dbb96ad43a3f03acdfff3267dcdb01e8707fba9a91196de71bb155"
+  sha256 "8711ed9707ac13807487c8090b6d8789060963a4f2f9021102228f21a80e540f"
 
   auto_updates true
 

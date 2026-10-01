@@ -1,11 +1,11 @@
 cask "pos-arm" do
-  version "v1.8.0"
+  version "v1.9.0"
 
-  url "https://github.com/Posnic/POS/releases/download/v1.8.0/Posnic-1.8.0-macos-arm64.dmg"
+  url "https://github.com/Posnic/POS/releases/download/v1.9.0/Posnic-1.9.0-macos-arm64.dmg"
   name "POS-arm"
   desc "Open source, offline-first POS and billing software for retail and restaurant workflows"
   homepage "https://www.posnic.com/"
-  sha256 "50d4238707e2552b1e8ce211c54659d46e927a9d396ab0e802ce33985f68e56e"
+  sha256 "358bc72825a68340d13d459d2d5480fc86547e63f691e7df8ce0138566a4cd3f"
 
   auto_updates true
 
