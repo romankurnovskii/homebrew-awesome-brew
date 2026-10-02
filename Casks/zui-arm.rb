@@ -1,7 +1,7 @@
 cask "zui-arm" do
   version "v1.18.0"
 
-  url "https://github.com/brimdata/zui/releases/download/v1.18.0/Zui-1.18.0-arm64.dmg"
+  url "https://github.com/superdb/zui/releases/download/v1.18.0/Zui-1.18.0-arm64.dmg"
   name "zui-arm"
   desc "Zui is a powerful desktop application for exploring and working with data. The official front-end to the Zed lake."
   homepage "https://github.com/brimdata/zui"
