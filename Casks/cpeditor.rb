@@ -1,11 +1,11 @@
 cask "cpeditor" do
-  version "7.0.2"
+  version "7.0.3"
 
-  url "https://github.com/cpeditor/cpeditor/releases/download/7.0.2/cpeditor-7.0.2-macos-x64.dmg"
+  url "https://github.com/cpeditor/cpeditor/releases/download/7.0.3/cpeditor-7.0.3-macos-x64.dmg"
   name "cpeditor"
   desc "The IDE for competitive programming 🎉 | Fetch, Code, Compile, Run, Check, Submit 🚀."
   homepage "https://github.com/cpeditor/cpeditor"
-  sha256 "73cf6d030959a7f4951703d5d7b9a2e225731b72421eea90f29e824df0a20070"
+  sha256 "fb236a43f23afdd42580ed1fa825502f4de29e5b040cebcbc17c3c82153dd9ea"
 
   auto_updates true
 
