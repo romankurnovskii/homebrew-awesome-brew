@@ -1,11 +1,11 @@
 cask "openresearch-cli" do
-  version "v0.2.17"
+  version "v0.2.18"
 
-  url "https://github.com/alphaXiv/OpenResearch/releases/download/v0.2.17/OpenResearch.dmg"
+  url "https://github.com/alphaXiv/OpenResearch/releases/download/v0.2.18/OpenResearch.dmg"
   name "openresearch-cli"
   desc "Run parallel research agents with any model"
   homepage "https://github.com/alphaXiv/openresearch-cli"
-  sha256 "5f85a43595d72b8039a9cf6dcba453981fab8b8588e15ac2e0d90fc9e82875b4"
+  sha256 "d9e28c638358c148d2e901bc504c73c0f9f6a5b03e1231ced238c2d07cb32b99"
 
   auto_updates true
 
