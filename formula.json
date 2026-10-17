@@ -31,6 +31,10 @@
     {
       "repo": "https://github.com/romankurnovskii/etemaro",
       "description": "LLM-powered agent that autonomously manages liquidity positions on Meteora DLMM for Solana"
+    },
+    {
+      "repo": "https://github.com/fclairamb/homebrew-tap",
+      "description": "SolidPing: open-source uptime and synthetic monitoring server (brew install fclairamb/tap/solidping)"
     }
   ],
   "skip": [
