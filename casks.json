@@ -705,6 +705,15 @@
         "intel": null,
         "universal": null
       }
+    },
+    {
+      "description": "Call and meeting recorder that transcribes on the machine, with speaker labels",
+      "repo": "https://github.com/GeiserX/akou",
+      "name": "akou",
+      "arch": {
+        "arm": "macos-arm64.dmg"
+      },
+      "sha": {}
     }
   ],
   "casks": [
