@@ -35,6 +35,10 @@
     {
       "repo": "https://github.com/fclairamb/homebrew-tap",
       "description": "SolidPing: open-source uptime and synthetic monitoring server (brew install fclairamb/tap/solidping)"
+    },
+    {
+      "repo": "https://github.com/seifip/homebrew-kilobat",
+      "description": "GPL-3.0-only macOS network diagnostic CLI, keyboard menu and local MCP; source build needs Xcode 16+"
     }
   ],
   "skip": [
