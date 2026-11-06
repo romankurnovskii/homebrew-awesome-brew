@@ -2,4 +2,4 @@ GitPython==3.2.1
 pygithub==2.10.0
 python-dotenv==1.2.4
 requests==2.34.2
-pytest==9.1.1
+pytest==9.2.0
