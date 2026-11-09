@@ -5,7 +5,7 @@ cask "binggpt-arm" do
   name "BingGPT-arm"
   desc "Desktop application of new Bing's AI-powered chat (Windows, macOS and Linux)"
   homepage "https://github.com/dice2o/BingGPT"
-  sha256 "a6a60bd1b612f73c42981d6312b16522d5309f8a4349c5b8a43d78b21e354b4d"
+  sha256 "bef140a1a96994029153dca8c00b1750b9a5a764fb9db2dc68d7bb40e8a29e8a"
 
   auto_updates true
 

@@ -5,7 +5,7 @@ cask "alphabiz" do
   name "alphabiz"
   desc "Web3 ecosystem - enable developers to build fully decentralized media platform and blockchain-based marketplace"
   homepage "https://github.com/tanshuai/alphabiz"
-  sha256 "bf603f8c71362486b471768f5a9665245520c336ce7905ef76a887844718dcb3"
+  sha256 "bef140a1a96994029153dca8c00b1750b9a5a764fb9db2dc68d7bb40e8a29e8a"
 
   auto_updates true
 

@@ -5,7 +5,7 @@ cask "netpad-arm" do
   name "NetPad-arm"
   desc "Robotics visualization and debugging"
   homepage "https://github.com/tareqimbasher/NetPad"
-  sha256 "b9a178a3bb3a8e662cb0def8bafdae20706b29fcadf7274ffc7dc5a3fa19e69d"
+  sha256 "bef140a1a96994029153dca8c00b1750b9a5a764fb9db2dc68d7bb40e8a29e8a"
 
   auto_updates true
 

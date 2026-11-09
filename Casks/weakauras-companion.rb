@@ -5,7 +5,7 @@ cask "weakauras-companion" do
   name "WeakAuras-Companion"
   desc "A cross-platform application built to provide the missing link between Wago.io and World of Warcraft"
   homepage "https://github.com/WeakAuras/WeakAuras-Companion"
-  sha256 "bc430a4d29679c9e446dfe1c215596a307438cb66b885ce637b4c3b22b1fd990"
+  sha256 "bef140a1a96994029153dca8c00b1750b9a5a764fb9db2dc68d7bb40e8a29e8a"
 
   auto_updates true
 

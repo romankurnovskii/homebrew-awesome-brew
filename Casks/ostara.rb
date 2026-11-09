@@ -5,7 +5,7 @@ cask "ostara" do
   name "ostara"
   desc "Ostara is a desktop application that provides various features to monitor and interact with Spring Boot Applications via Actuator."
   homepage "https://github.com/krud-dev/ostara"
-  sha256 "81541de7219a0ce57283b9d8616be3b414698bc0bcdbdd021c0278ef259ef8fc"
+  sha256 "bef140a1a96994029153dca8c00b1750b9a5a764fb9db2dc68d7bb40e8a29e8a"
 
   auto_updates true
 

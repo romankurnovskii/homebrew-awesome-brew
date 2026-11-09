@@ -5,7 +5,7 @@ cask "etemaro" do
   name "etemaro"
   desc "LLM-powered agent that autonomously manages liquidity positions on Meteora DLMM for Solana"
   homepage "https://github.com/romankurnovskii/etemaro"
-  sha256 "4d81dffc0556b39a00af20cc384083b47ff54a9e18141f7a2660525c81b76cef"
+  sha256 "bef140a1a96994029153dca8c00b1750b9a5a764fb9db2dc68d7bb40e8a29e8a"
 
   auto_updates true
 

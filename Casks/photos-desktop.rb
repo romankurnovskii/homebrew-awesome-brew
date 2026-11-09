@@ -5,7 +5,7 @@ cask "photos-desktop" do
   name "photos-desktop"
   desc "Desktop app for ente Photos"
   homepage "https://github.com/ente-io/photos-desktop"
-  sha256 "4313f315ebd324c8522d9485c180074b6cff2efbfafcf2eccea746ee36b8d351"
+  sha256 "bef140a1a96994029153dca8c00b1750b9a5a764fb9db2dc68d7bb40e8a29e8a"
 
   auto_updates true
 

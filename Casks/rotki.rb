@@ -5,7 +5,7 @@ cask "rotki" do
   name "rotki"
   desc "A portfolio tracking, analytics, accounting and management application that protects your privacy"
   homepage "https://github.com/rotki/rotki"
-  sha256 "8057c9ca7e28fa5ae09c63fc51f609a3699e344fb945f1e884f956d29ae0a9ba"
+  sha256 "bef140a1a96994029153dca8c00b1750b9a5a764fb9db2dc68d7bb40e8a29e8a"
 
   auto_updates true
 

@@ -5,7 +5,7 @@ cask "notes-arm" do
   name "Notes-arm"
   desc "TriliumNext Notes - personal knowledge base"
   homepage "https://github.com/TriliumNext/Notes"
-  sha256 "4b1d7e166c61fe6604374ea8eb105a0c257c861a7124d1c2d5195f8ed1aaf205"
+  sha256 "bef140a1a96994029153dca8c00b1750b9a5a764fb9db2dc68d7bb40e8a29e8a"
 
   auto_updates true
 
