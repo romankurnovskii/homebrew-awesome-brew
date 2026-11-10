@@ -5,7 +5,7 @@ cask "encrypt0r-intel" do
   name "encrypt0r-intel"
   desc "encrypt0r App to encrypt and decrypt your files with a passphrase"
   homepage "https://github.com/kunalnagar/encrypt0r"
-  sha256 "bef140a1a96994029153dca8c00b1750b9a5a764fb9db2dc68d7bb40e8a29e8a"
+  sha256 "c99df975da18bcc784db2c62762cb8b7945e911a7bdc7756e3c90b8c082a3f8a"
 
   auto_updates true
 

@@ -5,7 +5,7 @@ cask "picgo-arm" do
   name "PicGo-arm"
   desc "A simple & beautiful tool for pictures uploading built by vue-cli-electron-builder"
   homepage "https://github.com/Molunerfinn/PicGo"
-  sha256 "bef140a1a96994029153dca8c00b1750b9a5a764fb9db2dc68d7bb40e8a29e8a"
+  sha256 "8eaed1a22a01eb3cd2f41e4d3ac5d672b51ac5c56e1b4d7add4688acb9ad2c5b"
 
   auto_updates true
 

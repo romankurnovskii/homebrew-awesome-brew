@@ -5,7 +5,7 @@ cask "alspotron-intel" do
   name "alspotron-intel"
   desc "Alspotron: Shows the egg lyrics of the track, playing on Spotify / YouTube Music"
   homepage "https://github.com/organization/alspotron"
-  sha256 "bef140a1a96994029153dca8c00b1750b9a5a764fb9db2dc68d7bb40e8a29e8a"
+  sha256 "c5864f92fddf6064984f8e335896ae9fc4eee08482e492a765535a6168c7fefb"
 
   auto_updates true
 

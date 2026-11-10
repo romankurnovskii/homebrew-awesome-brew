@@ -5,7 +5,7 @@ cask "studio" do
   name "studio"
   desc "Robotics visualization and debugging"
   homepage "https://github.com/foxglove/studio"
-  sha256 "bef140a1a96994029153dca8c00b1750b9a5a764fb9db2dc68d7bb40e8a29e8a"
+  sha256 "c5f9735de77c2f28a773d41635610361cbcb2114ce2ca8057f4c9736cd62dbd2"
 
   auto_updates true
 

@@ -5,7 +5,7 @@ cask "youtube-music-intel" do
   name "youtube-music-intel"
   desc "YouTube Music Desktop / built-in ad blocker / downloader"
   homepage "https://github.com/th-ch/youtube-music"
-  sha256 "bef140a1a96994029153dca8c00b1750b9a5a764fb9db2dc68d7bb40e8a29e8a"
+  sha256 "76e4a859cfbb777ca4383f83455a4ee01a8345356b86f0a91395b9e7dda6a863"
 
   auto_updates true
 

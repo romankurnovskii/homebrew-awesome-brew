@@ -5,7 +5,7 @@ cask "trilium" do
   name "trilium"
   desc "Build your personal knowledge base with Trilium Notes"
   homepage "https://github.com/zadam/trilium"
-  sha256 "bef140a1a96994029153dca8c00b1750b9a5a764fb9db2dc68d7bb40e8a29e8a"
+  sha256 "239c5131c292256bde3d177aeb9fd5e18a5c9f7d10d5f7db678df98c7f338ecd"
 
   auto_updates true
 

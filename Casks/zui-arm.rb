@@ -5,7 +5,7 @@ cask "zui-arm" do
   name "zui-arm"
   desc "Zui is a powerful desktop application for exploring and working with data. The official front-end to the Zed lake."
   homepage "https://github.com/brimdata/zui"
-  sha256 "bef140a1a96994029153dca8c00b1750b9a5a764fb9db2dc68d7bb40e8a29e8a"
+  sha256 "d28bd3144781cf1d8b6d2ba654e4c65b826c945004d480f2c0497235dfda4390"
 
   auto_updates true
 

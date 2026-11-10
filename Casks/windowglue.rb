@@ -5,7 +5,7 @@ cask "windowglue" do
   name "WindowGlue"
   desc "Menu bar utility that lets you glue two windows together so that they behave (mostly) as one"
   homepage "https://github.com/Conxt/WindowGlue"
-  sha256 "bef140a1a96994029153dca8c00b1750b9a5a764fb9db2dc68d7bb40e8a29e8a"
+  sha256 "44fe9151c9c5ba1a9239c36cc56febe3256f21c7c1553e5e1a2942fe992b7907"
 
   auto_updates true
 

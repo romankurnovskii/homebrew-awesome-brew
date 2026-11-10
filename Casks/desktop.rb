@@ -5,7 +5,7 @@ cask "desktop" do
   name "desktop"
   desc "Offline editor for Scratch 3"
   homepage "https://github.com/TurboWarp/desktop"
-  sha256 "bef140a1a96994029153dca8c00b1750b9a5a764fb9db2dc68d7bb40e8a29e8a"
+  sha256 "2c6f80e178a2dce44272c4aaf57375885533a0f9799a7ebb39bbf93733f7e34d"
 
   auto_updates true
 

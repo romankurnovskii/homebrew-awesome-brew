@@ -5,7 +5,7 @@ cask "netpad-intel" do
   name "NetPad-intel"
   desc "Robotics visualization and debugging"
   homepage "https://github.com/tareqimbasher/NetPad"
-  sha256 "bef140a1a96994029153dca8c00b1750b9a5a764fb9db2dc68d7bb40e8a29e8a"
+  sha256 "725ab3b99e61ba4328811f84096a83b8b40536cdd05e3e5c5050104905b7b460"
 
   auto_updates true
 

@@ -5,7 +5,7 @@ cask "app-monorepo-intel" do
   name "app-monorepo-intel"
   desc "Open source and community driven crypto wallet"
   homepage "https://github.com/OneKeyHQ/app-monorepo"
-  sha256 "bef140a1a96994029153dca8c00b1750b9a5a764fb9db2dc68d7bb40e8a29e8a"
+  sha256 "32d6915fc4602bfe3218f1028a81d6d2baa6335d1550cb73a57c6d3a5bca2dfd"
 
   auto_updates true
 

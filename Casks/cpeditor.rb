@@ -5,7 +5,7 @@ cask "cpeditor" do
   name "cpeditor"
   desc "The IDE for competitive programming 🎉 | Fetch, Code, Compile, Run, Check, Submit 🚀."
   homepage "https://github.com/cpeditor/cpeditor"
-  sha256 "bef140a1a96994029153dca8c00b1750b9a5a764fb9db2dc68d7bb40e8a29e8a"
+  sha256 "f480c317a0c03b8dd6e91fae63db3a254416d9d57b060536921de2a8e74670bf"
 
   auto_updates true
 

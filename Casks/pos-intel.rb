@@ -5,7 +5,7 @@ cask "pos-intel" do
   name "POS-intel"
   desc "Open source, offline-first POS and billing software for retail and restaurant workflows"
   homepage "https://www.posnic.com/"
-  sha256 "bef140a1a96994029153dca8c00b1750b9a5a764fb9db2dc68d7bb40e8a29e8a"
+  sha256 "858784e59cf60a244c5e90da4ee0ec599614458c069c1e53f647bc496c678280"
 
   auto_updates true
 

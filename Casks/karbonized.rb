@@ -5,7 +5,7 @@ cask "karbonized" do
   name "karbonized"
   desc "Image Generator for Code Snippets & Screenshots"
   homepage "https://github.com/yossTheDev/karbonized"
-  sha256 "bef140a1a96994029153dca8c00b1750b9a5a764fb9db2dc68d7bb40e8a29e8a"
+  sha256 "8711ed9707ac13807487c8090b6d8789060963a4f2f9021102228f21a80e540f"
 
   auto_updates true
 
