@@ -1,28 +1,28 @@
 class Solidping < Formula
   desc "Self-hostable uptime monitoring: 40 check types, multi-region, status pages"
   homepage "https://solidping.io"
-  version "0.51.0"
+  version "0.52.0"
   license "AGPL-3.0-only"
 
   on_macos do
     on_arm do
-      url "https://github.com/fclairamb/solidping/archive/refs/tags/v0.51.0.tar.gz"
-      sha256 "e027a9334a947a85ada69cdc791c9f6ad5c5eea78f50e4933111023d5229a85e"
+      url "https://github.com/fclairamb/solidping/archive/refs/tags/v0.52.0.tar.gz"
+      sha256 "424a3c8ec897e7345db8efd11d779778595b89dfc959ca515e4b2a9188b3274c"
     end
     on_intel do
-      url "https://github.com/fclairamb/solidping/releases/download/v0.51.0/solidping-darwin-amd64.gz"
-      sha256 "956514f36bb0eb19ac336c720d730e8fe67d841d52eafebc31a499282239ffa8"
+      url "https://github.com/fclairamb/solidping/releases/download/v0.52.0/solidping-darwin-amd64.gz"
+      sha256 "b3b41999c301715d382352caacb228b0a5cba997c5a2a0d4ca37625646ee0143"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/fclairamb/solidping/releases/download/v0.51.0/solidping-linux-arm64.gz"
-      sha256 "40de19633c026d50b861aff911790e4752274f0766c2d2b2d3ff2dbfea84c028"
+      url "https://github.com/fclairamb/solidping/releases/download/v0.52.0/solidping-linux-arm64.gz"
+      sha256 "9f0173cfa0e5d1c66b1ad7a3bfd1d44f6713f2d73d5dcff528a8078c3bff2853"
     end
     on_intel do
-      url "https://github.com/fclairamb/solidping/releases/download/v0.51.0/solidping-linux-amd64.gz"
-      sha256 "31ab80f997ad421156804fdf1221d86ed265745c57ccd0ff2adea5bd416eaeb3"
+      url "https://github.com/fclairamb/solidping/releases/download/v0.52.0/solidping-linux-amd64.gz"
+      sha256 "f85ec3f244e9f655d6056c837f5c9822ae99411277a2f86778a98ac0568435d0"
     end
   end
 
