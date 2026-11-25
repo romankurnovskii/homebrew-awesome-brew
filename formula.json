@@ -41,6 +41,7 @@
     "binutils.rb",
     "cdrkit.rb",
     "chntpw@1.0.1.rb",
+    "etemaro.rb",
     "ffmpeg-iina.rb",
     "ffmpeg.rb",
     "imagemagick.rb",
