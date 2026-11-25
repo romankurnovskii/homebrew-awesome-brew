@@ -8,14 +8,21 @@ class Etemaro < Formula
   depends_on "node"
 
   def install
-    # Install the published tarball as a *dependency* so npm resolves only its
-    # runtime deps (ws, ink, react). Installing it as a project would also pull
-    # its devDependencies, which reference workspace-only packages that are not
-    # on npm. The old formula copied dist/ alone and crashed on `require("ws")`.
-    system "tar", "-czf", "etemaro-cli.tgz", "-C", "package", "."
-    system "npm", "install", "--no-audit", "--no-fund", "--loglevel=error",
-           "--prefix=#{libexec}", "./etemaro-cli.tgz"
-    bin.install_symlink libexec/"node_modules/@etemaro/cli/dist/Cli.cjs" => "etemaro"
+    # The npm tarball is flattened into the buildpath. Install the package, drop
+    # its devDependencies (they point at workspace packages that are not on npm),
+    # then install the runtime deps (ws, ink, react). The previous formula copied
+    # dist/ alone, so every command died with "Cannot find module 'ws'".
+    libexec.install Dir["*"]
+    manifest = libexec/"package.json"
+    data = JSON.parse(manifest.read)
+    data.delete("devDependencies")
+    manifest.atomic_write(JSON.pretty_generate(data) + "\n")
+
+    cd libexec do
+      system "npm", "install", "--omit=dev", "--no-audit", "--no-fund", "--loglevel=error"
+    end
+
+    bin.install_symlink libexec/"dist/Cli.cjs" => "etemaro"
   end
 
   test do
