@@ -60,7 +60,7 @@ Instead of hunting down individual taps, trust this one and install what you nee
 | **chntpw (openssl@3)** | `brew install romankurnovskii/awesome-brew/chntpw` | Reset Windows passwords — fixed for modern OpenSSL |
 | **KubeStellar (kc-agent)** | `brew install romankurnovskii/awesome-brew/kc-agent` | MCP server for multi-cluster Kubernetes + console |
 | **surfpool** | `brew install romankurnovskii/awesome-brew/surfpool` | Solana Foundation's tool for network participation |
-| **etemaro** | `brew install romankurnovskii/awesome-brew/etemaro` | LLM-powered agent that autonomously manages Meteora DLMM liquidity |
+| **etemaro** | `brew install romankurnovskii/awesome-brew/etemaro` | LLM-powered agent that autonomously manages Meteora DLMM liquidity (CLI; the desktop cask was retired in favour of the web console) |
 
 ---
 
