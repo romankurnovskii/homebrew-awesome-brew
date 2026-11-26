@@ -8,8 +8,8 @@ cask "midi-router-client" do
     end
   end
   on_golden_gate :or_newer do
-    version "2.45.1"
-    sha256 "2007ed715fdf6d9afcd31ccd2a2430608cd7673170a109d2ea1ee6fd624e871b"
+    version "2.46.0"
+    sha256 "efd21a70c3c9f490634f03d3abab1cbc850dddf15ee42ccf7bc10fcf3a3e09bb"
 
     livecheck do
       url :url

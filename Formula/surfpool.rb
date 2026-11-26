@@ -1,14 +1,14 @@
 class Surfpool < Formula
   desc "Solana Foundation's surfpool - a tool for Solana network participation"
   homepage "https://github.com/solana-foundation/surfpool"
-  version "1.7.0"
+  version "1.8.0"
 
   if Hardware::CPU.arm?
-    url "https://github.com/solana-foundation/surfpool/releases/download/v1.7.0/surfpool-darwin-arm64.tar.gz"
-    sha256 "32c309e3b79bfa3913e384b3c9b109000720cfe7f346d145feb6693fccfb202f"
+    url "https://github.com/solana-foundation/surfpool/releases/download/v1.8.0/surfpool-darwin-arm64.tar.gz"
+    sha256 "c5d5ec8133f3f7446f643969a41d172b507140d0b496964269038d4bcf4108c3"
   else
-    url "https://github.com/solana-foundation/surfpool/releases/download/v1.7.0/surfpool-darwin-x64.tar.gz"
-    sha256 "b9724b6a67ac33b9cc94fb41adaf47bd638269142c7ddc6a0dae7ca77fd9e760"
+    url "https://github.com/solana-foundation/surfpool/releases/download/v1.8.0/surfpool-darwin-x64.tar.gz"
+    sha256 "a284b70d92e706cc190a60d7567d8c2f7d462cc01b0ec94902a99bf662dc71b2"
   end
 
   def install
