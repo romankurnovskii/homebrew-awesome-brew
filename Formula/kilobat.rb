@@ -1,9 +1,9 @@
 class Kilobat < Formula
   desc "macOS network diagnostics CLI and MCP server"
   homepage "https://kilobat.app"
-  url "https://kilobat.app/downloads/kilobat-cli-1.49.4-universal.tar.gz"
-  version "0.49.0"
-  sha256 "dbcc01c368228b35444796573103a2e07398bf5143b90badc40b4f27a8250416"
+  url "https://kilobat.app/downloads/kilobat-cli-1.50.0-universal.tar.gz"
+  version "0.49.1"
+  sha256 "89a5e5eac1eefa1723be573e4eed10cfa83c5b56f089315092ec42e75517da9e"
   license all_of: ["GPL-3.0-only", "CC-BY-4.0", "BSD-2-Clause"]
 
   livecheck do
